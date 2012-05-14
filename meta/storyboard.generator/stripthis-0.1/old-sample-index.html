@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>My Comic Page</title>
+		<link rel="stylesheet" type="text/css" href="font/stylesheet.css" />
+		<script type="text/javascript" src="libs/comicbrowser.js"></script>
+		<script type="text/javascript" src="libs/comicgenerator.js"></script>
+		<script type="text/javascript" src="libs/stencils.js"></script>
+		<script type="text/javascript" src="libs/stencils-kesiev.js"></script>
+		<script type="text/javascript" src="libs/stencils-sandbox.js"></script>		
+		<script type="text/javascript" src="libs/stencils-cw.js"></script>
+		<script type="text/javascript" src="libs/stencils-lw.js"></script>
+		<link rel="alternate" type="application/rss+xml" href="server/rss.php?seriesid=stripthis" title="My Comic RSS"/>
+	</head>
+	<body>
+		<h1>My Comic Page</h1>
+		<b>Feed RSS:</b> <a href="server/rss.php?seriesid=stripthis">here</a><br>
+		In this example the RSS feed is defined in the header section too. Some browsers will display a nice RSS icon near the address bar.
+		<hr>
+		<b>Comic #</b> <span class="comicbrowser-comicid"></span> of <span class="comicbrowser-comiccount"></span><br>
+		<b>URL:</b> <span class="comicbrowser-comicurl"></span><br>
+		<b>Link:</b> <a href="#" class="comicbrowser-comicurlhref">here</a><br>
+		<b>Open studio with empty comic:</b> <a href="#" target="_blank" class="comicbrowser-comicstudiourlhref">here</a><br>
+		<b>Open this comic to studio:</b> <a href="#" target="_blank" class="comicbrowser-opencomicstudiourlhref">here</a><br>
+		<b>Read:</b> <span class="comicbrowser-comicreadcount"></span> time(s)<br>
+		<b>Date:</b> <span class="comicbrowser-comicdate"></span><br>
+		<b>Text:</b><br>
+		<textarea class="comicbrowser-comictextvalue" cols=80 rows=5></textarea><br>
+		<b>Text (HTMLified):</b><br>
+		<div style="border:1px dashed #000000;padding:10px" class="comicbrowser-comictext"></div><br>
+		<b>Comic:</b><br>
+		<div class="comicbrowser-comic"></div>
+		<hr>
+			<a href="#" class="comicbrowser-firstcomichref">First</a>
+			<a href="#" class="comicbrowser-previouscomichref">Previous</a>
+			<a href="#" class="comicbrowser-nextcomichref">Next</a>
+			<a href="#" class="comicbrowser-lastcomichref">Last</a>
+		<hr>
+			Direct links:
+			<a href="#c-1">Comic 1</a>
+			<a href="#c-2">Comic 2</a>
+			<a href="#c-3">Comic 3</a>
+			<a href="#c-4">Comic 4</a>
+			<a href="#c-5">Comic 5</a>
+		<hr>
+		This comic is built in into the page and rendered when the page is loaded...<br><br>
+		<textarea class="comicbrowser-render">
+		"The built in comic" in english
+		a new panel
+		kesiev says "This comic is built in!"
+		bianca happy replies "That's right!"
+		credits: "By kesiev as an example!"
+		narrator says "And so..."
+		kesiev says sound literally "For real!"
+		</textarea>
+		<br>...so you don't really need server interactions for publishing comics. Just put the comic script into a textarea and give the <b>comicbrowser-render</b> class to them. Textareas reduces the possibilities of a <u>javascript/HTML injections</u> but beware from the <tt>&lt;/textarea&gt;</tt> tag!
+	</body>
+	<script>
+		function onComicgeneratorConfigure() {
+			//
+			// You can change the comicbrowser and comicgenerator configuration here before showing your comic, so you
+			// can set the series ID and, eventually, the "stripthis" engine root path, like this.
+			//
+			// comicbrowser._settings.server.url="path/to/server.php?seriesid=<your comic id>";
+			// comicgenerator._settings.placeholders.server="path/to/stripthis/";
+			//
+			// So you can have a single StripThis installation for more comic series.
+			//
+		}
+	</script>
+</html>

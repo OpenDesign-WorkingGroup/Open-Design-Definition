@@ -1,0 +1,617 @@
+// ---
+// Copyright (c) 2011 Francesco Cottone, http://www.kesiev.com/
+// ---
+
+puppets.persons.jack={
+	category:"SandBox",
+	name:"Jack",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanhairs.shorthairs,
+		stencils.basicmaneyes.brightlong,
+		stencils.basicmanfaces.slim
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.sammy={
+	category:"SandBox",
+	name:"Sammy",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.woman.stencils,
+		stencils.basicmanhairs.flat,
+		stencils.basicmaneyes.good,
+		stencils.basicmanfaces.slim
+	]),
+	attributes:puppets.persons.woman.attributes,
+	outerbox:puppets.persons.woman.outerbox,
+	innerbox:puppets.persons.woman.innerbox
+};
+
+puppets.persons.lucy={
+	category:"SandBox",
+	name:"Lucy",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.woman.stencils,
+		stencils.basicmanhairs.longcurl,
+		stencils.basicmannoses.longnose,
+		stencils.basicmaneyes.girllong,
+		puppets.persons.woman.attributes["glasses"].stencils,
+		stencils.basicmanfaces.pointy		
+	]),
+	attributes:puppets.persons.woman.attributes,
+	outerbox:puppets.persons.woman.outerbox,
+	innerbox:puppets.persons.woman.innerbox
+};
+
+puppets.persons.stephen={
+	category:"SandBox",
+	name:"stephen",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanhairs.curlyshort,
+		stencils.basicmanfaces.longface,
+		stencils.basicmaneyes.small,
+		stencils.basicmanbeard.wild,
+		stencils.basicmanfaceextras.mole
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.dewey={
+	category:"SandBox",
+	name:"Dewey",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanfaces.slim,
+		stencils.basicmanhairs.shaved,
+		stencils.basicmaneyes.tiny,
+		stencils.basicmanbeard.fulllight
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.carl={
+	category:"SandBox",
+	name:"Carl",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanfaces.slim,
+		stencils.basicmanhairs.shaved,
+		puppets.persons.woman.attributes["filled glasses"].stencils,
+		stencils.basicmanbeard.shaved
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.alex={
+	category:"SandBox",
+	name:"Alex",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanbeard.shaved,
+		stencils.basicmaneyes.brightlong,
+		stencils.basicmanhairs.spiky		
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.tony={
+	category:"SandBox",
+	name:"Tony",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanfaces.slim,		
+		stencils.basicmanbeard.shaved,
+		stencils.basicmannoses.longnose,
+		stencils.basicmanhairs.punky,
+		puppets.persons.woman.attributes["filled glasses"].stencils,
+		puppets.persons.woman.attributes["cigarette"].stencils
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.frank={
+	category:"SandBox",
+	name:"Frank",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanfaces.round,		
+		stencils.basicmanhairs.shaved,
+		stencils.basicmaneyes.foxy,
+		puppets.persons.woman.attributes["cigarette"].stencils,
+		stencils.basicmannoses.longnose,
+		stencils.basicmanbeard.fulllight		
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.dan={
+	category:"SandBox",
+	name:"Dan",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanhairs.spikyshaved,
+		puppets.persons.woman.attributes["filled glasses"].stencils,
+		stencils.basicmanbeard.dotted		
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.mike={
+	category:"SandBox",
+	name:"Mike",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanhairs.bubble,
+		puppets.persons.woman.attributes["filled glasses"].stencils,
+		stencils.basicmanbeard.shaved		
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.wish={
+	category:"SandBox",
+	name:"Wish",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanfaces.squared,
+		stencils.basicmaneyes.small,
+		stencils.basicmanfaceextras.mole,
+		stencils.basicmanhairs.shorthairs		
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.andreas={
+	category:"SandBox",
+	name:"Andreas",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanfaces.slim,		
+		stencils.basicmanhairs.moved,
+		stencils.basicmaneyes.small,
+		stencils.basicmannoses.longnose,
+		stencils.basicmanbeard.jazzy		
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.minique={
+	category:"SandBox",
+	name:"Minique",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanhairs.moved,
+		puppets.persons.woman.attributes["filled glasses"].stencils,
+		stencils.basicmanbeard.fulllight
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.lian={
+	category:"SandBox",
+	name:"Lian",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanfaces.slim,
+		stencils.basicmaneyes.foxy,
+		stencils.basicmanbeard.perfect,
+		stencils.basicmanhairs.fountain,
+		stencils.basicmannoses.pointy,
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.jim={
+	category:"SandBox",
+	name:"Jim",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmannoses.longnose,
+		stencils.basicmaneyes.curvy,		
+		stencils.basicmanfaces.slim,
+		stencils.basicmanhairs.shorthairs,		
+		stencils.basicmanbeard.markedgoatee,		
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.sheila={
+	category:"SandBox",
+	name:"Sheila",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.woman.stencils,
+		stencils.basicmanfaces.round,		
+		stencils.basicmannoses.longnose,
+		stencils.basicmanhairs.longflat,
+		stencils.basicmaneyes.goodgirl		
+	]),
+	attributes:puppets.persons.woman.attributes,
+	outerbox:puppets.persons.woman.outerbox,
+	innerbox:puppets.persons.woman.innerbox
+};
+
+puppets.persons.bert={
+	category:"SandBox",
+	name:"Bert",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanfaces.round,		
+		stencils.basicmannoses.longnose,
+		stencils.basicmanhairs.spiky,
+		stencils.basicmaneyes.goodlight
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.peter={
+	category:"SandBox",
+	name:"Peter",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanfaces.squared,		
+		stencils.basicmannoses.longnose,
+		stencils.basicmanhairs.moved,
+		puppets.persons.woman.attributes["glasses"].stencils,
+		stencils.basicmaneyes.tiny,
+		stencils.basicmanbeard.shaved		
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.nathan={
+	category:"SandBox",
+	name:"Nathan",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanfaces.chin,		
+		stencils.basicmannoses.pointy,
+		stencils.basicmanhairs.rounded,
+		puppets.persons.woman.attributes["glasses"].stencils,
+		stencils.basicmanbeard.shaved		
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.danny={
+	category:"SandBox",
+	name:"Danny",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanfaces.chin,
+		stencils.basicmaneyes.small,
+		stencils.basicmannoses.pointy,
+		stencils.basicmanbeard.markedgoateemustaches,		
+		stencils.basicmanhairs.tail
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.ada={
+	category:"SandBox",
+	name:"Ada",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.woman.stencils,
+		stencils.basicmaneyes.small,
+		stencils.basicmanhairs.verycurly,
+		stencils.basicmanfaceextras.mole		
+	]),
+	attributes:puppets.persons.woman.attributes,
+	outerbox:puppets.persons.woman.outerbox,
+	innerbox:puppets.persons.woman.innerbox
+};
+
+puppets.persons.romina={
+	category:"SandBox",
+	name:"Romina",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.woman.stencils,
+		stencils.basicmanhairs.shortcurl,
+		stencils.basicmanfaces.slim,		
+		stencils.basicmaneyes.tiny,
+		stencils.basicmanfaceextras.mole,
+		stencils.basicmannoses.pointy
+	]),
+	attributes:puppets.persons.woman.attributes,
+	outerbox:puppets.persons.woman.outerbox,
+	innerbox:puppets.persons.woman.innerbox
+};
+
+puppets.persons.sarah={
+	category:"SandBox",
+	name:"Sarah",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.woman.stencils,
+		stencils.basicmanhairs.hightail,
+		stencils.basicmanfaces.slim,		
+		stencils.basicmaneyes.reverted,
+	]),
+	attributes:puppets.persons.woman.attributes,
+	outerbox:puppets.persons.woman.outerbox,
+	innerbox:puppets.persons.woman.innerbox
+};
+
+puppets.persons.gary={
+	category:"SandBox",
+	name:"Gary",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanhairs.spiky,
+		stencils.basicmanfaces.slim,
+		stencils.basicmanbeard.perfect,
+		stencils.basicmaneyes.girllong
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.bald={
+	category:"SandBox",
+	name:"Bald",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanfaces.slim,
+		stencils.basicmaneyes.closed,
+		stencils.basicmanfaceextras.line		
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.samuel={
+	category:"SandBox",
+	name:"Samuel",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanfaces.shortface,
+		stencils.basicmaneyes.goodlight,
+		stencils.basicmanhairs.shorthairs,
+		stencils.basicmannoses.longpoint		
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.otto={
+	category:"SandBox",
+	name:"Otto",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanfaces.round,
+		puppets.persons.woman.attributes["filled glasses"].stencils,
+		stencils.basicmanbeard.fulllight,
+		stencils.basicmanhairs.few
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.duke={
+	category:"SandBox",
+	name:"Duke",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanfaces.slim,
+		stencils.basicmaneyes.closed,
+		stencils.basicmanbeard.perfect,
+		stencils.basicmanhairs.random
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.scarlet={
+	category:"SandBox",
+	name:"Scarlet",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.woman.stencils,
+		stencils.basicmaneyes.suregirl,
+		stencils.basicmanhairs.rebel,
+		stencils.basicmannoses.pointy		
+	]),
+	attributes:puppets.persons.woman.attributes,
+	outerbox:puppets.persons.woman.outerbox,
+	innerbox:puppets.persons.woman.innerbox
+};
+
+puppets.persons.randy={
+	category:"SandBox",
+	name:"Randy",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmaneyes.brightlong,
+		stencils.basicmanbeard.wild,
+		stencils.basicmannoses.longnose,
+		stencils.basicmanhairs.spiky		
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.anna={
+	category:"SandBox",
+	name:"Anna",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.woman.stencils,
+		stencils.basicmaneyes.goodlight,
+		stencils.basicmanhairs.rebelshort
+	]),
+	attributes:puppets.persons.woman.attributes,
+	outerbox:puppets.persons.woman.outerbox,
+	innerbox:puppets.persons.woman.innerbox
+};
+
+puppets.persons.rummy={
+	category:"SandBox",
+	name:"Rummy",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.woman.stencils,
+		stencils.basicmanfaces.slim,
+		stencils.basicmaneyes.goodgirl,
+		stencils.basicmanhairs.tail		
+	]),
+	attributes:puppets.persons.woman.attributes,
+	outerbox:puppets.persons.woman.outerbox,
+	innerbox:puppets.persons.woman.innerbox
+};
+
+puppets.persons.alan={
+	category:"SandBox",
+	name:"Alan",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanfaces.chin,
+		stencils.basicmaneyes.closed,
+		stencils.basicmanhairs.fountain,		
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.rico={
+	category:"SandBox",
+	name:"Rico",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanfaces.slim,
+		stencils.basicmanbeard.markedgoatee,		
+		stencils.basicmanhairs.shorthairs,
+		stencils.basicmannoses.pointy,
+		stencils.basicmaneyes.goodboy
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.susan={
+	category:"SandBox",
+	name:"Susan",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.woman.stencils,
+		stencils.basicmanfaces.pointy,
+		stencils.basicmaneyes.brightlong,
+		puppets.persons.woman.attributes["glasses"].stencils,
+		stencils.basicmanhairs.shorteye
+	]),
+	attributes:puppets.persons.woman.attributes,
+	outerbox:puppets.persons.woman.outerbox,
+	innerbox:puppets.persons.woman.innerbox
+};
+
+puppets.persons.jefferson={
+	category:"SandBox",
+	name:"Jefferson",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanfaces.longface,
+		stencils.basicmaneyes.curvy,
+		stencils.basicmanfaceextras.line,
+		stencils.basicmanhairs.shortwave
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.rudy={
+	category:"SandBox",
+	name:"Rudy",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanfaces.slim,
+		stencils.basicmanbeard.fearless,
+		stencils.basicmaneyes.reverted,
+		stencils.basicmannoses.pointy,
+		stencils.basicmanhairs.spiky
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.lara={
+	category:"SandBox",
+	name:"Lara",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.woman.stencils,
+		stencils.basicmanhairs.movedwave
+	]),
+	attributes:puppets.persons.woman.attributes,
+	outerbox:puppets.persons.woman.outerbox,
+	innerbox:puppets.persons.woman.innerbox
+};
+
+puppets.persons.robert={
+	category:"SandBox",
+	name:"Robert",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanfaces.longface,
+		stencils.basicmannoses.longnose,
+		stencils.basicmaneyes.adult,
+		stencils.basicmanbeard.dotted,
+		stencils.basicmanhairs.classic		
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};
+
+puppets.persons.stewey={
+	category:"SandBox",
+	name:"Stewey",
+	stencils:comicgenerator.mergeStencils([
+		puppets.persons.man.stencils,
+		stencils.basicmanfaces.round,
+		stencils.basicmanhairs.moved,
+		stencils.basicmaneyes.small		
+	]),
+	attributes:puppets.persons.man.attributes,
+	outerbox:puppets.persons.man.outerbox,
+	innerbox:puppets.persons.man.innerbox
+};

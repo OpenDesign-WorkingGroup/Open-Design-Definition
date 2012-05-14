@@ -1,0 +1,49 @@
+"Open Design Definition: here's how it works!" in english
+panel with image aligned center single http://farm8.staticflickr.com/7049/6938251063_d86aa44e23_b.jpg
+massimo says "Welcome to the Open Design Definition process!"
+kat says "Thank you for joining us!"
+
+a new desert panel
+kat says "There are many Open definitions: Open Source Software, Hardware, Data, ..."
+massimo with surprised mouth says "but no real, shared and collaborative Open Design Definition!"
+
+a new crowded panel
+massimo says "... so we thought about developing one, but in an open source way!"
+kat says "That's why we set up the group at design.okfn.org and this open source repository!"
+
+panel with image aligned center single http://upload.wikimedia.org/wikipedia/commons/9/9a/TallinnPan.jpg
+massimo says "We are also doing local workshops, to help people participate in the process."
+kat says "The first one was held in Tallinn (Estonia) in April 2012."
+
+a new office panel
+kat using mac says "We are then starting this online discussion on Github, that works as an open source community!"
+
+panel with image aligned bottom single http://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Manchester_In_Colour%21.jpg/1024px-Manchester_In_Colour%21.jpg
+kat says "We will then do another workshop at Fab*, in Manchester (UK)"
+massimo says "(... the first meeting of European FabLabs)"
+
+panel with image aligned top single http://upload.wikimedia.org/wikipedia/commons/c/c1/HelsinkiMontage_NoEffects.jpg
+massimo says "And we'd like to discuss it more with you during the Open Knowledge Festival 2012"
+kat says "... that will take place in Helsinki in September 2012!"
+
+a new office panel
+massimo using mac says "But meanwhile, the online process still goes on on Github!"
+
+a new crowded panel
+kat says "We are now looking at existing definitions..."
+massimo replies "... and as in open source software, we comment them by opening tickets (issues)"
+
+
+a new crowded panel
+massimo says "We will then start writing down the Open Design definition later..."
+kat says "... and you can participate in writing it!"
+
+a new panic panel
+massimo says "So please join our collaborative initiative!"
+kat says "Introduce yourself on our mailing list and let's start collaborating!"
+
+a new crowded panel
+narrator says "Who's going to talk next?"
+
+very large crowded panel
+narrator says "... to be continued... by all of you! :-)"

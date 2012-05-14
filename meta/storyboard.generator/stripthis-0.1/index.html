@@ -1,0 +1,655 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Comic Studio</title>
+		<style>
+			.menubar {
+				right:0px;
+				left:0px;
+				height:15px;
+				background-color:#cecece;
+				font-family:ActionManRegular;
+				padding:10px;
+				border-bottom:2px solid #000000
+			}
+			.fullwidth {
+				min-width:768px;
+			}
+			.drawer {
+				padding:10px;
+				right:0px;
+				border-bottom:2px solid #000000;
+				background-color:#ffffff;
+			}
+			.attributecolumn {
+				line-height:20px;
+				display:none;
+				font-family:ActionManRegular;
+				float:left;
+				width:152px;
+				height:244px;
+				padding:5px;
+				margin-right:5px;
+				overflow:auto;
+				border:1px solid black
+			}
+			.attributecolumnlarge {
+				width:304px;
+			}
+			.textareacolumn {
+				float:left;
+				width:304px;
+				height:244px;
+				padding:5px;
+				margin-right:5px;
+				overflow:auto;
+				border:1px solid #000000;
+				background-color:#cecece;
+			}
+			.phrasebox {
+				overflow:hidden;
+				white-space:nowrap;
+				font-family:ActionManRegular;
+				background-color:#cecece;
+				padding:10px;
+				height:10px;
+				line-height:10px;
+				font-size:12px;
+				margin:0px 10px 0px 10px;		
+			}
+			.comicpreview {
+				padding:10px;
+				text-align:center;
+				background-image:url('libs/grid.png');
+			}
+			.scripteditor {
+				font-size:16px;
+				line-height:20px;
+			}
+			.textonlybox {
+				font-family:ActionManRegular;
+				font-size:16px;
+				text-align:center
+			}
+			
+			.help H1 {
+				margin:0px 0px 10px 0px;
+				padding:0px;
+			}
+			
+			.tabledescription {
+				right:0px;
+				left:0px;
+				padding:5px;
+				background-color:#cecece;
+				margin:20px 0px 0px 0px; 
+			}
+			.tableextra {
+				right:0px;
+				left:0px;
+				padding:5px;
+				background-color:#cecece;
+			}
+			.tablevalue {
+				border-left:20px solid #cecece;
+				padding: 20px 0px 10px 10px;
+			}
+			
+			.redmarker {
+				background-color:#ff9999;
+				padding:2px;
+			}
+			.greenmarker {
+				background-color:#99ff99;
+				padding:2px;
+			}
+			.bluemarker {
+				background-color:#9999ff;
+				padding:2px;
+			}
+			.violetmarker {
+				background-color:#ff99ff;
+				padding:2px;
+			}
+			.yellowmarker {
+				background-color:#ffff99;
+				padding:2px;
+			}
+			.examplecomment {
+				font-size:10px;
+			}
+
+		</style>
+		<link rel="stylesheet" type="text/css" href="font/stylesheet.css" />
+		<script type="text/javascript" src="libs/comicgenerator.js"></script>
+		<script type="text/javascript" src="libs/stencils.js"></script>
+		<!--<script type="text/javascript" src="libs/stencils-kesiev.js"></script>-->
+		<script type="text/javascript" src="libs/stencils-community.js"></script>
+		<script type="text/javascript" src="libs/stencils-sandbox.js"></script>
+		<script type="text/javascript" src="libs/stencils-cw.js"></script>
+		<script type="text/javascript" src="libs/stencils-lw.js"></script>
+	</head>
+	<body onload="onload();" style="padding:0px;margin:0px">
+		<div id="filebox" class="menubar fullwidth"></div>
+		<div id="submitter" class="fullwidth drawer textonlybox" style="display:none"></div>		
+		<div id="loader" class="fullwidth drawer textonlybox" style="display:none"></div>		
+		<div id="scripteditor" class="fullwidth drawer">
+			<textarea class="scripteditor" WRAP=OFF id="scripter" onkeyup="editorkeypressed()" style="width:100%;height:200px"></textarea>
+		</div>
+		<div id="library" class="fullwidth drawer" style="display:none;height:335px">
+			<div id="libbox" class="menubar"></div>
+			<div id="editor" style="padding:10px;height:253px">
+				<div id="comicdef" class="attributecolumn attributecolumnlarge"></div>
+				<div id="panel" class="attributecolumn"></div>
+				<div id="subjs" class="attributecolumn" style="background-color:#cecece"></div>
+				<div id="adje" class="attributecolumn attributecolumnlarge"></div>
+				<div id="verb" class="attributecolumn" style="background-color:#cecece"></div>
+				<div id="adverb" class="attributecolumn attributecolumnlarge"></div>
+				<textarea WRAP=OFF id="act" onkeyup="librarykeypressed()" class="textareacolumn">This is a test</textarea>
+				<div id="testpanel" style="float:left;height:200px;">
+				</div>
+			</div>
+			<div id="phrase" class="phrasebox"></div>
+		</div>
+		<div id="help" class="help fullwidth drawer textonlybox" style="text-align:left;display:none">
+		<h1>Help</h1>
+			I'll try to teach you how to write a comic. Can be confusing at start so I suggest you to have a look to the examples and match the colors on each description to better understand how it works.
+			<div class="tabledescription">1 - The first line of your comic script is the <span class="redmarker">title</span>. Enclose it with quotation marks. You can also specify other <span class="greenmarker">attributes</span> of the comic.</div>
+			<div class="tablevalue"><span class="redmarker">"this is the title of my comic"</span> in <span class="greenmarker">english</span></div>
+			<div class="tabledescription">2 - <u>Optionally</u> you can add a "premise", in which you define what your characters will do for the whole comic.</div>
+			<div class="tablevalue"><span class="redmarker">kesiev</span> is <span class="greenmarker">having dinner</span><br><span class="redmarker">bianca</span> is <span class="greenmarker">happy</span> and is <span class="greenmarker">playing videogames</span><br>A <span class="greenmarker">smiling</span> <span class="redmarker">man</span></div>
+			<div class="tableextra">The structure of the premise includes the <span class="redmarker">subject at any position</span> surrounded by its <span class="greenmarker">attributes</span>.</div>
+			<div class="tabledescription">3 - Then you have to create a panel, in which the scene is set. To create a panel just write the <span class="redmarker">panel</span> word as first or last word of a sentence with its own <span class="greenmarker">adjectives</span>.</div>
+			<div class="tablevalue">A <span class="greenmarker">dark</span> <span class="greenmarker">openspace</span> <span class="redmarker">panel</span> <span class="examplecomment">- or -</span> <span class="redmarker">panel</span> with a <span class="greenmarker">dark</span> <span class="greenmarker">openspace</span></div>
+			<div class="tabledescription">4 - Then you have to <u>describe the scene</u> with one or more sentences. The <span class="greenmarker">action</span> splits each sentence in two: the first part includes the <span class="redmarker">subject</span> with its <span class="bluemarker">attributes</span>, the second one <span class="violetmarker">describes the action</span> except for the last word, that is the <span class="yellowmarker">the spoken word</span>. If more words are said (quite ever), surround them with quotation marks.<br>Remember that while you can write anything as spoken words, <span class="redmarker">subjects</span>, <span class="bluemarker">attributes</span>, <span class="greenmarker">actions</span> and <span class="violetmarker">action descriptions</span> are applied <u>only if defined into the library</u>, so have a look to the <u>library tool</u> on the main menu bar to check out which of them you can use for your comic. Many of them can be combined together so be creative!</div>
+			<div class="tablevalue"><span class="redmarker">kesiev</span> <span class="bluemarker">happy</span> and <span class="bluemarker">smiling</span> <span class="greenmarker">says</span> <span class="violetmarker">loudly</span> <span class="yellowmarker">Hello!</span><br>
+				<span class="redmarker">bianca</span> <span class="greenmarker">replies</span> <span class="yellowmarker">"Hi there!"</span><br>
+				<span class="redmarker">man</span> is <span class="bluemarker">smiling</span>
+			</div>
+			<div class="tableextra">The <span class="greenmarker">action</span> and its <span class="violetmarker">attributes</span> are <u>not</u> mandatory, so if a character just show up saying nothing, just write <span class="redmarker">his name</span> and <span class="bluemarker">its attributes</span>.</div>
+			<div class="tabledescription">5 - Go to step 3 again and add new panels until your story is done. You can add nearly any number of panels. Once you're done, just add - if you want - some <span class="redmarker">credits</span> to your comic, surrounding them with quotation marks.</div>
+			<div class="tablevalue"><span class="redmarker">credits:</span> "2010 - by KesieV. Thanks to everybody!"</div>
+			<div class="tableextra">That's all. Remember that any word that doesn't match anything in the library will be ignored and the same happens with <span id="skipsymbols"></span> symbols so you can give more meaning to your scripts! Have fun!</div>
+		</div>		
+		<div id="container" class="comicpreview fullwidth"></div>
+	</body>
+</html>
+<script>
+
+var _settings={
+	
+	// Settings
+	server:{
+		// Your comic series id. Have to match with one of the comic series defined into
+		// settings.php.
+		seriesid:"stripthis",
+		// Every comic series configured into the settings.php have writekey, that is a string used
+		// to enable writing permissions to your comic feed from an histance of the Comic Studio.
+		// You've to set here the right writekey that matches the comic series you want to modify.
+		writekey:"createarandomwritekey",
+		// The relative path to the server.php and its parameters
+		script:"server/server.php?seriesid=%SERIESID%&writekey=%WRITEKEY%&",
+		// Don't change this value, since is nerdly server-related.
+		cutstars:3
+	},
+	comicgenerator:{
+		// The relative path of the StripThis! installation.
+		scriptroot:""
+	}
+	
+	// Notes: if you're going to be the only author of your comic (most of the cases), just put the
+	// comic studio into a not-public address with these values configured to your comic server.
+	// If you're going to work on many comics on the same server, you can copy your studio
+	// installation many times and change the settings for every comic series or pass the
+	// seriesid and the writekey appending them to the url. For example:
+	//
+	// comicstudio.html
+	//
+	// Uses values defined into the _settings object for connecting to the comic server. Instead...
+	//
+	// comicstudio.html?writekey=xxx&seriesid=yyyy
+	//
+	// Will connect to the same server but with a different writekey and seriesid.
+}
+
+function getXmlHttp() {
+	var xmlhttp=false;
+	/*@cc_on @*/
+	/*@if (@_jscript_version >= 5)
+	// JScript gives us Conditional compilation, we can cope with old IE versions.
+	// and security blocked creation of the objects.
+	try {
+	xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
+	} catch (e) {
+	try {
+	 xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+	} catch (E) {
+	 xmlhttp = false;
+	}
+	}
+	@end @*/
+	if (!xmlhttp && typeof XMLHttpRequest!='undefined') {
+	  xmlhttp = new XMLHttpRequest();
+	}
+	return xmlhttp;
+}
+
+var prepared=false;
+var kp;
+var lkp;
+var selection={puppet:null,verb:null};
+var locked=false;
+var publisherelement=null;
+var menus={
+	file:[
+		{
+			label:"default",
+			textonly:true
+		},
+		{
+			label:"Script",
+			toggle:["scripteditor"],
+			hide:["submitter","loader"]
+		},
+		{
+			label:"Library",
+			toggle:["library"],
+			hide:["submitter","loader"]
+		},
+		{
+			label:"Submit",
+			hide:["library","loader","help"],
+			show:["scripteditor","submitter"],
+			onclick:function() {
+				prepare();
+			}			
+		},
+		{
+			label:"Load",
+			hide:["library","submitter","help"],
+			show:["scripteditor","loader"],
+			onclick:function() {
+				document.getElementById("loader").innerHTML="Insert the comic ID and hit the button to load.<br>"+
+					"<b>NOTE:</b> the comic text you're editing will be lost!<br>"+
+					"<br>Comic ID: <input id='loadcomicid' type='text'> <input type='button' value='Load' onclick='loadcomic()'/>";
+			}			
+		},
+		{
+			label:"Help",
+			toggle:["help"],
+			hide:["submitter","loader"],
+			onclick:function() {
+				document.getElementById("loader").innerHTML="Insert the comic ID and hit the button to load.<br>"+
+					"<b>NOTE:</b> the comic text you're editing will be lost!<br>"+
+					"<br>Comic ID: <input id='loadcomicid' type='text'> <input type='button' value='Load' onclick='loadcomic()'/>";
+			}			
+		}
+	],
+	lib:[
+		{
+			label:"Comic",
+			hide:["subjs","adje","verb","adverb","act"],
+			show:["panel","comicdef"]
+		},
+		{
+			label:"Subject",
+			hide:["panel","verb","adverb","act","comicdef"],
+			show:["subjs","adje"]
+		},
+		{
+			label:"Verb",
+			hide:["panel","subjs","adje","act","comicdef"],
+			show:["verb","adverb"]
+		},
+		{
+			label:"Text",
+			hide:["panel","subjs","adje","verb","adverb","comicdef"],
+			show:["act"]
+		}
+	],
+}
+
+function updatecomic() {
+	comicgenerator.fromScriptToElement(document.getElementById('scripter').value,document.getElementById('container'),{donttranslate:true})
+}
+
+function editorkeypressed() {
+	if (locked) return;
+	clearTimeout(kp);
+	kp=setTimeout(updatecomic,1000);
+}
+
+// Makemenu
+function setmenu(id,n) {
+	if (locked) return;
+	var opt=menus[id][n];
+	if (opt.toggle)
+		for (var i=0;i<opt.toggle.length;i++)
+			document.getElementById(opt.toggle[i]).style.display=(document.getElementById(opt.toggle[i]).style.display=="none"?"block":"none");
+	if (opt.show)
+		for (var i=0;i<opt.show.length;i++)
+			document.getElementById(opt.show[i]).style.display="block";
+	if (opt.hide)
+		for (var i=0;i<opt.hide.length;i++)
+			document.getElementById(opt.hide[i]).style.display="none";
+	if (opt.onclick) opt.onclick();
+}
+
+function makemenu(entries,into) {
+	var ret="";
+	for (var i=0;i<menus[entries].length;i++)
+		if (menus[entries][i].textonly)
+			ret+="<span style='-moz-border-radius:5px;-o-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;color:#ffffff;height:100%;background-color:black;padding:5px'>"+menus[entries][i].label+"</span> ";
+		else	
+			ret+="<a href=\"#\" style='color:#000000' onclick=\"setmenu('"+entries+"',"+i+")\">"+menus[entries][i].label+"</a> ";
+	document.getElementById(into).innerHTML=ret;
+}
+
+// Clicks
+
+function pupclick(id) {
+	if (locked) return;
+	if (selection.puppet) document.getElementById("pup-"+selection.puppet).style.backgroundColor="#cecece";
+	selection.puppet=id;
+	document.getElementById("pup-"+selection.puppet).style.backgroundColor="#ffffff";
+	updateadjectives();
+}
+
+function verclick(id) {
+	if (locked) return;
+	if (selection.verb) document.getElementById("vrb-"+selection.verb).style.backgroundColor="#cecece";
+	selection.verb=id;
+	document.getElementById("vrb-"+selection.verb).style.backgroundColor="#ffffff";
+	updateadverbs();
+}
+
+// Library columns
+
+function librarykeypressed() {
+	if (locked) return;
+	clearTimeout(lkp);
+	lkp=setTimeout(updatephrase,1000);
+}
+
+function renderatts(attrs,prefix,bg,oncl,singleselect) {
+	var cat={};
+	for (var a in attrs) {
+		if (!cat[attrs[a].category])
+			cat[attrs[a].category]=[];
+		cat[attrs[a].category].push(a);
+	}
+	var adj="";
+	var id;
+	for (var c in cat) {
+		adj+="<div style='background-color:"+bg+";padding:5px;margin:5px 0px 5px 0px'>"+c+"</div>";
+		for (var a=0;a<cat[c].length;a++) {
+			id=cat[c][a];
+			adj+="<div "+(singleselect?"onclick=\""+(oncl?oncl.replace(/%ID%/,id):"updatephrase()")+"\" id='"+prefix+"-"+id+"'":"")+" style='"+(singleselect?"cursor:pointer;":"")+"width:100%'>"+(singleselect?"":"<input type='checkbox' style='margin:0px;padding:0px' id='"+prefix+"-"+id+"' onchange=\""+(oncl?oncl.replace(/%ID%/,id):"updatephrase()")+"\"/> ")+cat[c][a];
+			if (attrs[id].notes) adj+="<div class='examplecomment' style='padding:5px;line-height:10px'>"+attrs[id].notes+"</div>";
+			if (attrs[id].argument) {
+				adj+="<div class='examplecomment' style='padding:5px;line-height:10px'><b>Arguments:</b><br>";
+				for (var j=0;j<attrs[id].argument.length;j++) {
+					adj+="<span style='padding:2px;background-color:"+bg+"'>"+attrs[id].argument[j].description+"</span><br>";
+					if (attrs[id].argument[j].map) {
+						for (var k in attrs[id].argument[j].map)
+							adj+="&nbsp;"+(attrs[id].argument[j].defaultvalue==k?"<span title='Default value'><u>":"")+k+(attrs[id].argument[j].defaultvalue==k?"</u></span>":"")+", ";
+						adj=adj.substr(0,adj.length-1)+"<br>";
+					} else if (attrs[id].argument[j].defaultvalue)
+						adj+="&nbsp;<span title='Default value'><u>"+attrs[id].argument[j].defaultvalue+"</u><br>";
+				}
+			}
+			adj+="</div>";
+		}			
+	}
+	return adj;
+}
+
+function updatepanel() {
+	document.getElementById("panel").innerHTML=renderatts(puppets.panel.attributes,"panel","#cecece");
+	updatephrase();	
+}
+
+function updateadverbs() {
+	if (!selection.verb)
+		document.getElementById("adverb").innerHTML="<p style='text-align:center;font-size:10px'>(select a verb first)</p>";
+	else
+		document.getElementById("adverb").innerHTML=renderatts(puppets.verbs[selection.verb].attributes,"adv","#cecece");
+	updatephrase();	
+}
+
+function updateadjectives() {
+	if (!selection.puppet)
+		document.getElementById("adje").innerHTML="<p style='text-align:center;font-size:10px'>(select a subject first)</p>";
+	else
+		document.getElementById("adje").innerHTML=renderatts(puppets.persons[selection.puppet].attributes,"adj","#cecece");
+	updatephrase();	
+}
+
+
+function updatecomicdef() {
+	document.getElementById("comicdef").innerHTML=renderatts(stencils.comic,"cdef","#cecece");
+}
+
+function updateverbs() {
+	document.getElementById("verb").innerHTML=renderatts(puppets.verbs,"vrb","#ffffff","verclick('%ID%')",true);
+	updatephrase();	
+}
+
+function updatepuppets() {
+	selection.puppet=null;
+	document.getElementById("subjs").innerHTML=renderatts(puppets.persons,"pup","#ffffff","pupclick('%ID%')",true);
+	updatephrase();
+}
+
+function onload() {
+	var pwk=geturlparameter("writekey");
+	var psid=geturlparameter("seriesid")
+	pwk=(pwk?pwk:_settings.server.writekey);
+	psid=(psid?psid:_settings.server.seriesid);
+	_settings.server.script=_settings.server.script.replace(/%WRITEKEY%/,pwk);
+	_settings.server.script=_settings.server.script.replace(/%SERIESID%/,psid);
+	menus.file[0].label=psid;
+	comicgenerator._settings.placeholders.server=_settings.comicgenerator.scriptroot;
+	document.getElementById("skipsymbols").innerHTML=comicgenerator._settings.understand.separators;
+	makemenu("file","filebox");
+	makemenu("lib","libbox");
+	setmenu("lib",1);
+	updatecomicdef();
+	updatepanel();
+	updatepuppets();
+	updateadjectives();
+	updateverbs();
+	updateadverbs();
+	updatecomic();
+	var hash=comicgenerator.trim(window.location.hash).toLowerCase();
+	if (hash.substr(0,3)=="#c-") {
+		var id=parseInt(hash.substr(3));
+		if (id) {
+			setmenu("file",4);
+			loadcomic(id);
+		}
+	}
+}
+
+function makephrase(obj,prefix) {
+	var phrase="";
+	for (var a in obj)
+		if (document.getElementById(prefix+"-"+a).checked) {
+			phrase+=a+" ";	
+			if (obj[a].argument) 
+				for (var j=0;j<obj[a].argument.length;j++)
+					phrase+=obj[a].argument[j].defaultvalue+" ";
+		}
+	return phrase;
+}
+
+function updatephrase() {
+	var phrase="\"Library browser\" ";
+	phrase+=makephrase(stencils.comic,"cdef");
+	phrase+="\na new ";
+	phrase+=makephrase(puppets.panel.attributes,"panel");
+	phrase+="panel\n";
+	if (selection.puppet) {
+		phrase+=selection.puppet+" ";
+		phrase+=makephrase(puppets.persons[selection.puppet].attributes,"adj");
+	}
+	if (selection.verb) {
+		phrase+=selection.verb+" ";
+		phrase+=makephrase(puppets.verbs[selection.verb].attributes,"adv");
+	}
+	phrase+="\""+document.getElementById("act").value.replace(/"/g,"\\\"")+"\"";
+	document.getElementById('phrase').innerHTML=phrase.replace(/\n/g," | ");
+	comicgenerator.fromScriptToElement(phrase,document.getElementById('testpanel'),{donttranslate:true});
+}
+
+// locking
+
+function setlock(v){
+	locked=v;
+	document.getElementById("scripter").readOnly=locked;
+}
+
+// publishing
+
+function publishing(xmlhttp) {
+	if (xmlhttp.readyState != 4) return;
+	if (xmlhttp.status != 200 && xmlhttp.status != 304) {
+		setpublisher("<b>Sorry!</b><br><br>HTTP error: " + xmlhttp.status);
+		setlock(false);
+		return;
+	}
+	if (xmlhttp.responseText.substr(0,3)=="OK:") {
+		var ret=xmlhttp.responseText.substr(xmlhttp.responseText.indexOf(":")+1);
+		var ret=ret.split("*");
+		setpublisher("<b>Done!</b><br><br>Your comic comic has been published!<br>Read it at <a target=\"_blank\" href='"+ret[0]+"'>"+ret[0]+"</a><br><br>If you want to reload this comic, remember that his ID is "+ret[1]+".")	
+	} else
+		setpublisher("<b>Sorry!</b><br><br>SERVER error: " + xmlhttp.responseText.substr(xmlhttp.responseText.indexOf(":")+1));
+	setlock(false);
+}
+
+function publish() {
+	if (!locked) {
+		setlock(true);
+		prepared=false;
+		var xmlhttp=getXmlHttp();
+		xmlhttp.onreadystatechange = function() { publishing(xmlhttp) };
+		xmlhttp.open('POST', _settings.server.script+"a=post", true);
+		var query="text="+encodeURIComponent(document.getElementById('scripter').value)+"&";
+		var elem = document.getElementById("submitter").getElementsByTagName('*');
+		for (var i=0;i<elem.length;i++)
+			if (elem[i].name&&elem[i].value) query+=encodeURIComponent(elem[i].name)+"="+encodeURIComponent(elem[i].value)+"&";
+		xmlhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+		xmlhttp.setRequestHeader("Content-length", query.length);
+		xmlhttp.setRequestHeader("Connection", "close");
+		xmlhttp.send(query);
+		setpublisher("Now printing...<br><br>Please wait.");
+	}
+}
+
+// preparation
+
+function setpublisher(txt) {
+	if (publisherelement) {
+		document.getElementById("submitter").removeChild(publisherelement);
+		delete publisherelement;
+	}
+	publisherelement=document.createElement('div');
+	publisherelement.innerHTML=txt;
+	reenablescripts(publisherelement);
+	document.getElementById("submitter").appendChild(publisherelement);	
+}
+		
+function preparecb(xmlhttp) {
+	if (xmlhttp.readyState != 4) return;
+	if (xmlhttp.status != 200 && xmlhttp.status != 304) {
+		setpublisher("<b>Sorry!</b><br><br>HTTP error: " + xmlhttp.status);
+		setlock(false);
+		return;
+	}
+	if (xmlhttp.responseText.substr(0,3)=="OK:") {
+		setpublisher(xmlhttp.responseText.substr(3)+"<input type='button' value='Publish this comic' onclick='publish()'/>");
+		prepared=true;
+	} else
+		setpublisher("<b>Sorry!</b><br><br>SERVER error: " + xmlhttp.responseText.substr(xmlhttp.responseText.indexOf(":")+1));
+	setlock(false);
+}
+
+function prepare() {
+	if (!prepared) {
+		setlock(true);
+		setpublisher("Preparing... please wait...");
+		var xmlhttp=getXmlHttp();
+		xmlhttp.onreadystatechange = function() {preparecb(xmlhttp)};
+		xmlhttp.open('GET', _settings.server.script+"a=prepare", true);
+		xmlhttp.send();
+	}
+}
+
+// loading
+
+function loadingcomic(xmlhttp) {
+	if (xmlhttp.readyState != 4) return;
+	if (xmlhttp.status != 200 && xmlhttp.status != 304) {
+		document.getElementById("loader").innerHTML="<b>Sorry!</b><br><br>HTTP error: " + xmlhttp.status;
+		setlock(false);
+		return;
+	}
+	if (xmlhttp.responseText.substr(0,3)=="OK:") {
+		document.getElementById("loader").innerHTML="<b>Comic loaded!</b>";
+		var data=xmlhttp.responseText.substr(3);
+		for (var i=0;i<_settings.server.cutstars;i++)
+			data=data.substr(data.indexOf("*")+1);
+		document.getElementById('scripter').value=data;
+		updatecomic();
+	} else
+		document.getElementById("loader").innerHTML="<b>Sorry!</b><br><br>SERVER error: " + xmlhttp.responseText.substr(xmlhttp.responseText.indexOf(":")+1);
+	setlock(false);
+}
+
+function loadcomic(value) {
+	if (!locked) {
+		setlock(true);
+		var sid=(value?value:document.getElementById('loadcomicid').value);
+		document.getElementById("loader").innerHTML="Now loading...<br><br>Please wait.";
+		var xmlhttp=getXmlHttp();
+		xmlhttp.onreadystatechange = function() {loadingcomic(xmlhttp)};
+		xmlhttp.open('GET', _settings.server.script+"a=get&comicid="+encodeURIComponent(sid), true);
+		xmlhttp.send();
+	}
+}
+
+function geturlparameter(name) {
+  name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+  var regexS = "[\\?&]"+name+"=([^&#]*)";
+  var regex = new RegExp( regexS );
+  var results = regex.exec( window.location.href );
+  if( results == null )
+	return "";
+  else
+	return results[1];
+}
+
+// Utils
+
+// Makes the script tags compatible on IE and enabled on Webkit browsers.
+function reenablescripts(node) {
+	var nodes=node.getElementsByTagName("script");
+	var cnt=nodes.length;
+	for (var a=0;a<nodes.length;a++) {
+		var rescript=document.createElement('script');
+		if (nodes[a].src) rescript.src=nodes[a].src;
+		if (nodes[a].onload) {
+			if (typeof nodes[a].onload == "function")
+				rescript.onload=nodes[a].onload;
+			else {
+				var fned=nodes[a].onload;
+				rescript.onload=function() { eval(fned) }
+			}
+			rescript.onreadystatechange=function() { if (this.readyState == 'complete') this.onload() };
+		}
+		if (nodes[a].text) rescript.text=nodes[a].text;
+		nodes[a].parentNode.replaceChild(rescript,nodes[a]);
+	}
+}
+
+</script>

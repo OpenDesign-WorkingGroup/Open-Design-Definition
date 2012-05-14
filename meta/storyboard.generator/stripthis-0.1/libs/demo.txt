@@ -1,0 +1,81 @@
+"questo e' il titolo"
+			
+			a panel
+			michele
+			bale
+			virginia
+			valerio
+			terragni
+			susanna
+			kusagari
+			ricciu
+			ana
+			silvia
+			mauro
+			rossana
+			pagio
+			otilio
+			nicolai
+			nello
+			mornata
+			monica
+			laura
+			ida
+			peppe
+			gionata
+			jerry
+			alberto
+			francesca
+			ferro
+			emiliano
+			domenico
+			diego
+			desiderio
+			davide
+			daniele
+			kesiev
+			cara
+			antonio
+			alessio
+			jhonny
+			yuri
+			luca
+			alan
+			betty
+			lucia
+			a new dark panel
+			narrator says sound "ciao!"
+			man says sound "boom! boom! boom!"
+			
+			a new panel
+			nArrator sAys ciao
+			
+			a New dArk pAnel
+			kesiev says ciao
+			bianca replies oila
+			bianca says pluto
+			
+			
+			a new blank panel
+			narrator says "the narrator!"
+			narrator says sound "ole!"
+			keSiev wIth a pUnches hAppy and smIling sAys Loud "i am kesiev!"
+			kesiev says sound "ciapa!"
+			happy bianca replies whispering "Hello to you too!"
+			
+			a new dark panel
+			bianca says hello
+			
+			a new dark panel
+			narrator says "the narrator!"
+			bianca replies ops
+			
+			a new dark panel
+			bianca replies ops
+			
+			a panel
+			kesiev says
+			
+			
+			
+			credits: "&copy;2010 KesieV"	
