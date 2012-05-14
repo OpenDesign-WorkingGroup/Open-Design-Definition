@@ -23,7 +23,7 @@ Here you can find some existing Open Definitions (formatted as [Markdown](http:/
 
 
 *open.design_definition* folder
--------------
+--------------------------------
 
 The Open Design Definition will be developed and accessed here. Nothing here at the moment... we need your collaboration! :)
 
@@ -35,7 +35,7 @@ This is where you can learn how this collaborative process works: at the same ti
 Three components define the process: the **storyboard** (that explains the story as a comic in an easy way), the **participation matrix** (that explains the whole process and how participation is structured), the **activity design** (that explains the whole activity in more detail, including tools, rules, connections, and so on). You can find them in the *meta* folder with more information about understanding them and editing them.
 As an example, here's the plan for the whole process (the *participation matrix*:
 
-<img src="https://github.com/openp2pdesign/test-before-discussion/raw/master/meta/open.design_definition_participation.matrix.png">
+<img src="https://github.com/OpenDesign-WorkingGroup/Open-Design-Definition/raw/master/meta/open.design_definition_participation.matrix.png">
 
 
 License

@@ -11,7 +11,7 @@ Storyboard
 
 If you want to edit the storyboard, use the **Storyboard Generator** included in the folder. Just open the *index.html* file, copy the content of the *open.design_definition_storyboard.txt* file into the form, edit it, and then copy back the new content to the file. Then please save also the generated comic as a *.png* file (save a screenshot and then edit it) as *open.design_definition_storyboard.png*.
 
-<img src="https://github.com/openp2pdesign/test-before-discussion/raw/master/meta/open.design_definition_storyboard.png">
+<img src="https://github.com/OpenDesign-WorkingGroup/Open-Design-Definition/raw/master/meta/open.design_definition_storyboard.png">
 
 
 Process
@@ -19,7 +19,7 @@ Process
 
 If you want to edit the file, please open the *.ods* file with [LibreOffice](http://www.libreoffice.org/) / [OpenOffice](http://www.openoffice.org/), edit it and save a *.png* file overwriting the *open.design_definition_participation.matrix.png* file (usually saving a *.pdf* file and then transforming it into an image works well).
 
-<img src="https://github.com/openp2pdesign/test-before-discussion/raw/master/meta/open.design_definition_participation.matrix.png">
+<img src="https://github.com/OpenDesign-WorkingGroup/Open-Design-Definition/raw/master/meta/open.design_definition_participation.matrix.png">
 
 
 Activity
@@ -27,4 +27,4 @@ Activity
 
 If you want to edit the file, please open the *.xmind* file with [XMind](http://www.xmind.net/), edit it, save it, and export it as a *.png* file overwriting the *open.design_definition_activity.design.png* file.
 
-<img src="https://github.com/openp2pdesign/test-before-discussion/raw/master/meta/open.design_definition_activity.design.png">
+<img src="https://github.com/OpenDesign-WorkingGroup/Open-Design-Definition/raw/master/meta/open.design_definition_activity.design.png">
