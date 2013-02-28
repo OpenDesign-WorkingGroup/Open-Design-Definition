@@ -7,7 +7,7 @@ Open Design Definition
 Introduction
 ------------
 
-This is an open source and collaborative project that aims to create a formal (and open!) **Open Design Definition**, a crucial and missing step towards developing all the other important aspects of Open Design.
+This is an open source and collaborative project that aims to create a formal (and open!) **Open Design Definition**, a crucial and missing step towards developing all the other important aspects of Open Design. Please note that we are developing **a definition** (i.e. a private document developed by a community that defines Open Design but not a legal tool) and **not a license** (a legal tool for managing the use of an intellectual property).
 A complete and fully comprehensive definition of what Open Design could represent for many different types of designers as a form of the Open Knowledge movement has yet to be finalised, and in its current state the linguistics of the word "design" include many potential meanings and applications. To quote a much-used [phrase](http://bit.ly/zCev5Y), *"Design is to design a design to produce a design"*.
 
 We want to develop this missing definition through **inclusive** and **collaborative** methods rooted in public discussion, workshopping and sharing different understandings of this field to ensure such a definition will adequately cover all the different meanings and applications of design.
