@@ -1,5 +1,6 @@
 [Source](http://opendefinition.org/)
 
+[License?]()
 
 Open Definition Version 1.1
 ===========================
@@ -9,10 +10,10 @@ Terminology
 
 The term **knowledge** is taken to include:
 
-Content such as music, films, books
-Data be it scientific, historical, geographic or otherwise
-Government and other administrative information
-Software is excluded despite its obvious centrality because it is already adequately addressed by previous work.
+1. Content such as music, films, books
+2. Data be it scientific, historical, geographic or otherwise
+3. Government and other administrative information
+4. Software is excluded despite its obvious centrality because it is already adequately addressed by previous work.
 
 The term **work** will be used to denote the item or piece of knowledge which is being transferred.
 
