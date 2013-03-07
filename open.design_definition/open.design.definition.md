@@ -16,31 +16,31 @@ This document represents a shared agreement about the definition of Open Design,
 
 ### Open Source and Open Content regarding Open Design
 
-* Here we should develop our understanding of Open Source / Open Content of Open Design. Should be short and clarify the framework. *
+*Here we should develop our understanding of Open Source / Open Content of Open Design. Should be short and clarify the framework.*
 
-* If we feel that we need to clarify something about Freedom vs. Openness it should be done here * 
+*If we feel that we need to clarify something about Freedom vs. Openness it should be done here* 
 
 ### Branches of Open Design
 
-* Here we should discuss all the kinds of Design (Product Design, Graphic Design) that can be Open Design and what is the source code for them and the binary code*
+*Here we should discuss all the kinds of Design (Product Design, Graphic Design) that can be Open Design and what is the source code for them and the binary code*
 
 
 ### The Open Data of Open Design
 
-* Here we should discuss the issue of all the knowledge and related data for Open Design projects. For example: supply chain, material processes, how to repair / reproduce / manufacture a project, the carbon footprint of the manufacturing and distribution processes and so on*
+*Here we should discuss the issue of all the knowledge and related data for Open Design projects. For example: supply chain, material processes, how to repair / reproduce / manufacture a project, the carbon footprint of the manufacturing and distribution processes and so on*
 
 ### Hacking Open Design: Redesign
 
-* Here we should clarify wether redesigning closed design projects can make them open *
+*Here we should clarify wether redesigning closed design projects can make them open*
 
 ### The process of Open Design
 
-* Here we should discuss if there's anything more that we can add about the processes around the development of Open Design projects *
+*Here we should discuss if there's anything more that we can add about the processes around the development of Open Design projects*
 
 ### Open Design and necessary software
 
-* Here we should discuss the relationship between Open Design and the necessary software for opening / designing / making it real * 
+*Here we should discuss the relationship between Open Design and the necessary software for opening / designing / making it real* 
 
 ### Open Design and Intellectual Property
 
-* Here we should clarify the relationships between different branches and entities for Design projects and the intellectual property laws developed for them. It should not be a license but should be a starting point for clarifying any issue with licenses or patenting  *
+*Here we should clarify the relationships between different branches and entities for Design projects and the intellectual property laws developed for them. It should not be a license but should be a starting point for clarifying any issue with licenses or patenting*
