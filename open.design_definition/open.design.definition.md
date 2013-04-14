@@ -33,6 +33,8 @@ This document represents a shared agreement about the definition of Open Design,
 
 *Here we should clarify wether redesigning closed design projects can make them open*
 
+Redesigning an existing proprietary design cannot make it Open Design. However, if we use an existing design as a component to include o modify in our project, and we release the instructions for using or modifying such design, these instructions are Open Design.
+
 ### The process of Open Design
 
 *Here we should discuss if there's anything more that we can add about the processes around the development of Open Design projects*
