@@ -11,7 +11,7 @@ This document is published under a Creative Commons [Attribution 3.0 Unported (C
 This document is the result of the collaborative discussion that has been taking place in the [Open Design Working Group](http://design.okfn.org/) of the [Open Knowledge Foundation](http://okfn.org/).
 Please join the conversation about the definition on the [Open Design Definition repository](https://github.com/OpenDesign-WorkingGroup/Open-Design-Definition) and on the [Open Design Working Group mailing list](http://lists.okfn.org/mailman/listinfo/opendesign) (past archives are available [here](http://lists.okfn.org/pipermail/opendesign/))
 
-This document represents a shared agreement about the definition of Open Design, and should not be understood as a license for Design content. The purpose of this document is to foster discussion, collaboration and community building around the concept and the practice of Open Design.
+This document represents a shared agreement about the definition of Open Design, and should not be understood as a license for Design content. The purpose of this document is to foster discussion, collaboration and community building around the concept and the practice of Open Design. This document clarifies the concepts and applications of Open Design, and while it may make easier the discussion about licenses or other sharing strategies for Design, it is not intended as a license.
 
 
 ### Open Source and Open Content regarding Open Design
