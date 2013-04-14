@@ -26,6 +26,12 @@ Open Design should always be considered in its political dimension, because tran
 
 *Here we should discuss all the kinds of Design (Product Design, Graphic Design) that can be Open Design and what is the source code for them and the binary code*
 
+This definition applies to design in its broadest sense, and is not confined to any specific branch of design. Here design is intended as
+* a verb: to design something (and therefore it is considered as a process)
+* a documentation: the drawings of a design (and therefore it is a considered as a blueprint)
+* an outcome: the design in its usable version (and therefore it is considered as an artifact)
+
+For specific definition of Open Design related to a specific branch of design, the current definition can be forked and extended from the [Open Design Definition repository](https://github.com/OpenDesign-WorkingGroup/Open-Design-Definition).
 
 ### The Open Data of Open Design
 
