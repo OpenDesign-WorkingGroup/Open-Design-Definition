@@ -20,6 +20,8 @@ This document represents a shared agreement about the definition of Open Design,
 
 *If we feel that we need to clarify something about Freedom vs. Openness it should be done here* 
 
+Open Design should always be considered in its political dimension, because transparency, collaboration and release of resources are strategies that do not fully guarantee the balance and social justice by themselves. Furthermore, by making open design project we will unconver their political dimension by making everybody aware of the impact on the social, economic, and environmental dimension of everybody's life.
+
 ### Branches of Open Design
 
 *Here we should discuss all the kinds of Design (Product Design, Graphic Design) that can be Open Design and what is the source code for them and the binary code*
