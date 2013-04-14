@@ -49,6 +49,8 @@ Design also means the design process of developing an Open Design project.Open D
 
 When presented publicly, outcomes and byproducts of an open design work must be distributed with the source of the open design work that were used to produce such outcomes and byproducts. The source files must be available with open and interchangeable file formats, in order to let anybody access them and edit them with easily accessible software, tools and technologies.
 
+If the design has not been designed by a person but is rather the outcome of generative process from a software, it is Open Design if also the source code of the used software is released openly.
+
 ### Open Design and Intellectual Property
 
 *Here we should clarify the relationships between different branches and entities for Design projects and the intellectual property laws developed for them. It should not be a license but should be a starting point for clarifying any issue with licenses or patenting*
