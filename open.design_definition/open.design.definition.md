@@ -33,9 +33,19 @@ This definition applies to design in its broadest sense, and is not confined to 
 
 For specific definition of Open Design related to a specific branch of design, the current definition can be forked and extended from the [Open Design Definition repository](https://github.com/OpenDesign-WorkingGroup/Open-Design-Definition).
 
-### The Open Data of Open Design
+### The process of Open Design
+
+*Here we should discuss if there's anything more that we can add about the processes around the development of Open Design projects*
+
+Design also means the design process of developing an Open Design project.Open Design does not refer to and is not defined by a specific design process. Most of the time the design process of an Open Design project will not be documented and therefore there is no need to publish this documentation. However, if the design process of an Open Design project is documented, this documentation should be published together with the Open Design project, in order to make even the process an open one. 
+
+### The documentation of Open Design
 
 *Here we should discuss the issue of all the knowledge and related data for Open Design projects. For example: supply chain, material processes, how to repair / reproduce / manufacture a project, the carbon footprint of the manufacturing and distribution processes and so on*
+
+### The outcome of Open Design
+
+*Here we should discuss Open Design as an artifact created from the blueprint..*
 
 ### Hacking Open Design: Redesign
 
@@ -43,11 +53,6 @@ For specific definition of Open Design related to a specific branch of design, t
 
 Redesigning an existing proprietary design cannot make it Open Design. However, if we use an existing design as a component to include o modify in our project, and we release the instructions for using or modifying such design, these instructions are Open Design.
 
-### The process of Open Design
-
-*Here we should discuss if there's anything more that we can add about the processes around the development of Open Design projects*
-
-Design also means the design process of developing an Open Design project.Open Design does not refer to and is not defined by a specific design process. Most of the time the design process of an Open Design project will not be documented and therefore there is no need to publish this documentation. However, if the design process of an Open Design project is documented, this documentation should be published together with the Open Design project, in order to make even the process an open one. 
 
 ### Open Design and necessary software
 
