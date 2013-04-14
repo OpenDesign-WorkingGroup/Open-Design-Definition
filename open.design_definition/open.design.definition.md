@@ -46,9 +46,6 @@ Design also means the design process of developing an Open Design project.Open D
 ### The outcome of Open Design
 
 *Here we should discuss Open Design as an artifact created from the blueprint..*
-
-### Hacking Open Design: Redesign
-
 *Here we should clarify wether redesigning closed design projects can make them open*
 
 Redesigning an existing proprietary design cannot make it Open Design. However, if we use an existing design as a component to include o modify in our project, and we release the instructions for using or modifying such design, these instructions are Open Design.
