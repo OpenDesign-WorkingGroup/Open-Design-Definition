@@ -22,16 +22,14 @@ This document represents a shared agreement about the definition of Open Design,
 
 Open Design should always be considered in its political dimension, because transparency, collaboration and release of resources are strategies that do not fully guarantee the balance and social justice by themselves. Furthermore, by making open design project we will unconver their political dimension by making everybody aware of the impact on the social, economic, and environmental dimension of everybody's life.
 
-### Branches of Open Design
-
-*Here we should discuss all the kinds of Design (Product Design, Graphic Design) that can be Open Design and what is the source code for them and the binary code*
-
 This definition applies to design in its broadest sense, and is not confined to any specific branch of design. Here design is intended as
 * a verb: to design something (and therefore it is considered as a process)
 * a documentation: the drawings of a design (and therefore it is a considered as a blueprint)
 * an outcome: the design in its usable version (and therefore it is considered as an artifact)
 
 For specific definition of Open Design related to a specific branch of design, the current definition can be forked and extended from the [Open Design Definition repository](https://github.com/OpenDesign-WorkingGroup/Open-Design-Definition).
+
+*Here we should discuss all the kinds of Design (Product Design, Graphic Design) that can be Open Design and what is the source code for them and the binary code*
 
 ### The process of Open Design
 
