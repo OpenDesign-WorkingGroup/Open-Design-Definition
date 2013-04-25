@@ -31,15 +31,18 @@ For specific definition of Open Design related to a specific branch of design, t
 
 *Here we should discuss all the kinds of Design (Product Design, Graphic Design) that can be Open Design and what is the source code for them and the binary code*
 
+
 ### The process of Open Design
 
 *Here we should discuss if there's anything more that we can add about the processes around the development of Open Design projects*
 
 Design also means the design process of developing an Open Design project.Open Design does not refer to and is not defined by a specific design process. Most of the time the design process of an Open Design project will not be documented and therefore there is no need to publish this documentation. However, if the design process of an Open Design project is documented, this documentation should be published together with the Open Design project, in order to make even the process an open one. 
 
+
 ### The documentation of Open Design
 
 *Here we should discuss the issue of all the knowledge and related data for Open Design projects. For example: supply chain, material processes, how to repair / reproduce / manufacture a project, the carbon footprint of the manufacturing and distribution processes and so on*
+
 
 ### The outcome of Open Design
 
@@ -57,6 +60,8 @@ When presented publicly, outcomes and byproducts of an open design work must be 
 
 If the design has not been designed by a person but is rather the outcome of generative process from a software, it is Open Design if also the source code of the used software is released openly.
 
+
 ### Open Design and Intellectual Property
 
 *Here we should clarify the relationships between different branches and entities for Design projects and the intellectual property laws developed for them. It should not be a license but should be a starting point for clarifying any issue with licenses or patenting*
+
