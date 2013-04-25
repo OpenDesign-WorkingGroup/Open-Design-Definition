@@ -3,7 +3,7 @@ The Open Design Definition v. 0.1
 
 License
 -------
-This document is published under a Creative Commons [Attribution 3.0 Unported (CC BY 3.0)](http://creativecommons.org/licenses/by/3.0/deed.en_US)
+This document is published under a Creative Commons [Attribution 3.0 Unported (CC BY 3.0)](http://creativecommons.org/licenses/by/3.0/deed.en_US). Parts of this document has been adopted from the [Open Source Hardware Definition](http://freedomdefined.org/OSHW).
 
 
 ### Introduction
@@ -14,12 +14,15 @@ Please join the conversation about the definition on the [Open Design Definition
 This document represents a shared agreement about the definition of Open Design, and should not be understood as a license for Design content. The purpose of this document is to foster discussion, collaboration and community building around the concept and the practice of Open Design. This document clarifies the concepts and applications of Open Design, and while it may make easier the discussion about licenses or other sharing strategies for Design, it is not intended as a license.
 
 
-### Open Source and Open Content regarding Open Design
+### Open Design Statement of Principles 1.0
 
 *Here we should develop our understanding of Open Source / Open Content of Open Design. Should be short and clarify the framework.*
 
 *If we feel that we need to clarify something about Freedom vs. Openness it should be done here* 
 
+Open Design is a design artifact project whose source documentation is made publicly available so that anyone can study, modify, distribute, make, prototype and sell the artifact based on that design. The artifact's source, the design documentation from which it is made, is available in the preferred format for making modifications to it. Ideally (but not exclusively necessary), Open Design uses readily-available components and materials, standard processes, open infrastructure, unrestricted content, and open-source design tools to maximize the ability of individuals to make and use hardware. 
+
+Open Design gives people the freedom to control their technology while sharing knowledge and encouraging commerce through the open exchange of designs.
 Open Design should always be considered in its political dimension, because transparency, collaboration and release of resources are strategies that do not fully guarantee the balance and social justice by themselves. Furthermore, by making open design project we will unconver their political dimension by making everybody aware of the impact on the social, economic, and environmental dimension of everybody's life.
 
 This definition applies to design in its broadest sense, and is not confined to any specific branch of design. Here design is intended as
@@ -42,6 +45,8 @@ Design also means the design process of developing an Open Design project.Open D
 ### The documentation of Open Design
 
 *Here we should discuss the issue of all the knowledge and related data for Open Design projects. For example: supply chain, material processes, how to repair / reproduce / manufacture a project, the carbon footprint of the manufacturing and distribution processes and so on*
+
+The design must be released with documentation including source design files, and must allow modification and distribution of the source design files. Where documentation is not furnished with the outcome artifact, there must be a well-publicized means of obtaining this documentation for no more than a reasonable reproduction cost, preferably downloading via the Internet without charge. The documentation must include design files in the preferred format for making changes, for example the native file format of a CAD program, in fully-documented, open format(s). Deliberately obfuscated design files are not allowed. Intermediate forms analogous to compiled computer code are not allowed as substitutes.
 
 
 ### The outcome of Open Design
