@@ -34,6 +34,8 @@ For specific definition of Open Design related to a specific branch of design, t
 
 *Here we should discuss all the kinds of Design (Product Design, Graphic Design) that can be Open Design and what is the source code for them and the binary code*
 
+*Make some examples of different possible Open Design branches*
+
 
 ### The process of Open Design
 
