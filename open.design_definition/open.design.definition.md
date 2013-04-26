@@ -30,11 +30,10 @@ This definition applies to design in its broadest sense, and is not confined to 
 * a documentation: the drawings of a design (and therefore it is a considered as a blueprint)
 * an outcome: the design in its usable version (and therefore it is considered as an artifact)
 
+For example, Open Design could refer to a Product Design project, a Fashion Design project, a Graphic Design project, an Interior Design project, a Service Design project, an Interaction Design project, and so on. 
 For specific definition of Open Design related to a specific branch of design, the current definition can be forked and extended from the [Open Design Definition repository](https://github.com/OpenDesign-WorkingGroup/Open-Design-Definition).
 
-*Here we should discuss all the kinds of Design (Product Design, Graphic Design) that can be Open Design and what is the source code for them and the binary code*
-
-*Make some examples of different possible Open Design branches*
+A Design project that includes software or hardware can be defined Open Design if the software is released under an [OSI](http://www.opensource.org/)-approved open source license and the hardware is released under an [Open Source Hardware](http://freedomdefined.org/OSHW)-approved open source license. 
 
 
 ### The process of Open Design
