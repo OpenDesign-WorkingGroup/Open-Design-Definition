@@ -9,7 +9,7 @@ This document is published under a Creative Commons [Attribution 3.0 Unported (C
 ### Introduction
 
 This document is the result of the collaborative discussion that has been taking place in the [Open Design Working Group](http://design.okfn.org/) of the [Open Knowledge Foundation](http://okfn.org/).
-Please join the conversation about the definition on the [Open Design Definition repository](https://github.com/OpenDesign-WorkingGroup/Open-Design-Definition) and on the [Open Design Working Group mailing list](http://lists.okfn.org/mailman/listinfo/opendesign) (past archives are available [here](http://lists.okfn.org/pipermail/opendesign/))
+Please join the conversation about the definition on the [Open Design Definition repository](https://github.com/OpenDesign-WorkingGroup/Open-Design-Definition) and on the [Open Design Working Group mailing list](http://lists.okfn.org/mailman/listinfo/opendesign) (past archives are available [here](http://lists.okfn.org/pipermail/opendesign/)).
 
 This document represents a shared agreement about the definition of Open Design, and should not be understood as a license for Design content. The purpose of this document is to foster discussion, collaboration and community building around the concept and the practice of Open Design. This document clarifies the concepts and applications of Open Design, and while it may make easier the discussion about licenses or other sharing strategies for Design, it is not intended as a license.
 
@@ -55,7 +55,7 @@ The design must be released with documentation including source design files, an
 *Here we should discuss Open Design as an artifact created from the blueprint..*
 *Here we should clarify wether redesigning closed design projects can make them open*
 
-Redesigning an existing proprietary design cannot make it Open Design. However, if we use an existing design as a component to include o modify in our project, and we release the instructions for using or modifying such design, these instructions are Open Design.
+Redesigning an existing proprietary design cannot make it Open Design. However, if we use an existing design as a component to include o modify in our project, and we release the instructions for using or modifying such design, these instructions can be understood as Open Design.
 
 
 ### Open Design and necessary software
@@ -70,4 +70,36 @@ If the design has not been designed by a person but is rather the outcome of gen
 ### Open Design and Intellectual Property
 
 *Here we should clarify the relationships between different branches and entities for Design projects and the intellectual property laws developed for them. It should not be a license but should be a starting point for clarifying any issue with licenses or patenting*
+
+From the legal point of view, design can be intended in a different way than from a designer's point of view. Therefore there may be different understanding of what design is or what can be protected as design in every country. This definition want to establish a framework for understanding in an easier way how to protect and share Open Design projects. You should always check if your project can be protected in your country as:
+
+* Copyright:
+	* *It is protected by copyright when ...*
+	* *You can share the project when it is protected by copyright by...*
+
+* Patent:
+	* *It is protected by patents when ...*
+	* *You can share the project when it is protected by patent by...*
+
+* Registered Design Rights:
+	* *It is protected by registered design rights when...*
+	* *You can share the project when it is protected by registered design rights by...*
+
+* Unregistered Design Rights
+	* *It is protected by unregistered design rights when...*
+	* *You can share the project when it is protected by unregistered design rights by...* 
+
+* Trademark: identify a product, not a function
+	* *It is protected by trademark when...*
+	* *You can share the project when it is protected by trademark by...*
+
+* Trade Dress
+	* *It is protected by trade dress when...*
+	* *You can share the project when it is protected by trade dress by...*
+	
+* No protection
+	* *There is no protection for the project when...*
+	* *You can share the project when there is no protection by...*
+	
+
 
