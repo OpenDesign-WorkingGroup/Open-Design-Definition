@@ -73,33 +73,47 @@ If the design has not been designed by a person but is rather the outcome of gen
 
 From the legal point of view, design can be intended in a different way than from a designer's point of view. Therefore there may be different understanding of what design is or what can be protected as design in every country. This definition want to establish a framework for understanding in an easier way how to protect and share Open Design projects. You should always check if your project can be protected in your country as:
 
-* Copyright:
-	* *It is protected by copyright when ...*
-	* *You can share the project when it is protected by copyright by...*
+* Copyright-like forms: the design is automatically protected
 
-* Patent:
-	* *It is protected by patents when ...*
-	* *You can share the project when it is protected by patent by...*
+	* Copyright
+		* *It is protected by copyright when ...*
+		* *You can share the project when it is protected by copyright by...*
 
-* Registered Design Rights:
-	* *It is protected by registered design rights when...*
-	* *You can share the project when it is protected by registered design rights by...*
+	* Unregistered Design Rights
+		* *It is protected by unregistered design rights when...*
+		* *You can share the project when it is protected by unregistered design rights by...* 
 
-* Unregistered Design Rights
-	* *It is protected by unregistered design rights when...*
-	* *You can share the project when it is protected by unregistered design rights by...* 
+	* Unregistered Trademark (TM)
+		* *It is protected by trademark when...*
+		* *You can share the project when it is protected by trademark by...*
+		
+	* Unregistered Trade Dress
+		* *It is protected by trade dress when...*
+		* *You can share the project when it is protected by trade dress by...*
 
-* Trademark: identify a product, not a function
-	* *It is protected by trademark when...*
-	* *You can share the project when it is protected by trademark by...*
+* Patent-like forms: the protection needs to be applied for 
 
-* Trade Dress
-	* *It is protected by trade dress when...*
-	* *You can share the project when it is protected by trade dress by...*
+	* Patent:
+		* *It is protected by patents when ...*
+		* *You can share the project when it is protected by patent by...*
+
+	* Registered Design Rights:
+		* *It is protected by registered design rights when...*
+		* *You can share the project when it is protected by registered design rights by...*
 	
-* No protection
-	* *There is no protection for the project when...*
-	* *You can share the project when there is no protection by...*
+	* Registered Trademark (R)
+		* *It is protected by trademark when...*
+		* *You can share the project when it is protected by trademark by...*
+
+	* Registered Trade Dress
+		* *It is protected by trade dress when...*
+		* *You can share the project when it is protected by trade dress by...*
+
+* No protection forms:	the protection is not available
+
+	* No protection
+		* *There is no protection for the project when...*
+		* *You can share the project when there is no protection by...*
 	
 
 
