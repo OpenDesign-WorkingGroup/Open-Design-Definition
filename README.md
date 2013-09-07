@@ -1,8 +1,8 @@
 <img src="http://farm8.staticflickr.com/7049/6938251063_d86aa44e23_b.jpg">
 
 
-Open Design Definition
-======================
+About "Open Design Definition" Project
+======================================
 
 Introduction
 ------------
@@ -11,7 +11,7 @@ This is an open source and collaborative project that aims to create a formal (a
 
 A complete and fully comprehensive definition of what Open Design could represent for many different types of designers as a form of the Open Knowledge movement has yet to be finalised, and in its current state the linguistics of the word "design" include many potential meanings and applications. To quote a much-used [phrase](http://bit.ly/zCev5Y), *"Design is to design a design to produce a design"*.
 
-We want to develop this missing definition through **inclusive** and **collaborative** methods rooted in public discussion, workshopping and sharing different understandings of this field to ensure such a definition will adequately cover all the different meanings and applications of design.
+Open Design Definition project aims to develop a definition of Open Design through **inclusive** and **collaborative** methods rooted in public discussion, workshopping and sharing different understandings of this field to ensure such a definition will adequately cover all the different meanings and applications of design.
 
 This project started from the [Open Design Working Group](http://design.okfn.org): you can read more about the project [here](http://design.okfn.org/current-projects/).
 Please feel free to browse the details about becoming a member [here](http://design.okfn.org/members) and introduce yourself on our [discussion list](http://lists.okfn.org/mailman/listinfo/opendesign) so we can get you involved. The archives of the discussion con be found [here](http://lists.okfn.org/pipermail/opendesign/).
