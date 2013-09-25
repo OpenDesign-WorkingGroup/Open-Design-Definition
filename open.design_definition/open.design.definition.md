@@ -49,6 +49,15 @@ Design also means the design process of developing an Open Design project.Open D
 
 The design must be released with documentation including source design files, and must allow modification and distribution of the source design files. Where documentation is not furnished with the outcome artifact, there must be a well-publicized means of obtaining this documentation for no more than a reasonable reproduction cost, preferably downloading via the Internet without charge. The documentation must include design files in the preferred format for making changes, for example the native file format of a CAD program, in fully-documented, open format(s). Deliberately obfuscated design files are not allowed. Intermediate forms analogous to compiled computer code are not allowed as substitutes.
 
+The documentation of Open Design can take different formats, here we present a spectrum that shows the different possible levels, with an increasing openness of the project:
+
+1. make your stuff available on the Web (whatever format) under an open license
+2. make it available as source file (e.g., vector format instead of bitmap format)
+3. make it available as a human-readable source file (e.g. ASCII .stl instead of binary .stl, this would work better with version control systems)
+4. use non-proprietary formats (e.g., .svg instead of Adobe Illustrator .ai)
+5. add a documentation about the design process (how it has been designed, by whom, where, ...)
+6. link your data to other data to provide context (e.g. Open Data regarding the design process, supply chain, manufacturing, distribution, end of life, ...)
+
 
 ### The outcome of Open Design
 
