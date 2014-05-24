@@ -40,6 +40,7 @@ A Design project that includes software or hardware can be defined Open Design i
 
 *Here we should discuss if there's anything more that we can add about the processes around the development of Open Design projects*
 
+Openness in Open Design can be referred to Open Access (to the source files) and Open Contribution (to the collaborative design process).
 Design also means the design process of developing an Open Design project. Open Design does not refer to and is not defined by a specific design process. Most of the time the design process of an Open Design project will not be documented and therefore there is no need to publish this documentation. However, if the design process of an Open Design project is documented, this documentation should be published together with the Open Design project, in order to make even the process an open one. 
 
 
