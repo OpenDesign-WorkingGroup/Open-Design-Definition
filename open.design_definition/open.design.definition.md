@@ -26,14 +26,15 @@ Open Design gives people the freedom to control their technology while sharing k
 Open Design should always be considered in its political dimension, because transparency, collaboration and release of resources are strategies that do not fully guarantee the balance and social justice by themselves. Furthermore, by making open design project we will unconver their political dimension by making everybody aware of the impact on the social, economic, and environmental dimension of everybody's life.
 
 This definition applies to design in its broadest sense, and is not confined to any specific branch of design. Here design is intended as
-* a verb: to design something (and therefore it is considered as a process)
-* a documentation: the drawings of a design (and therefore it is a considered as a blueprint)
-* an outcome: the design in its usable version (and therefore it is considered as an artifact)
+
+* **a verb**: to design something (and therefore it is considered as a process)
+* **a documentation**: the drawings of a design (and therefore it is a considered as a blueprint)
+* **an outcome**: the design in its usable version (and therefore it is considered as an artifact)
 
 For example, Open Design could refer to a Product Design project, a Fashion Design project, a Graphic Design project, an Interior Design project, a Service Design project, an Interaction Design project, and so on. 
 For specific definition of Open Design related to a specific branch of design, the current definition can be forked and extended from the [Open Design Definition repository](https://github.com/OpenDesign-WorkingGroup/Open-Design-Definition).
 
-A Design project that includes software or hardware can be defined Open Design if the software is released under an [OSI](http://www.opensource.org/)-approved open source license and the hardware is released under an [Open Source Hardware](http://freedomdefined.org/OSHW)-approved open source license. 
+A Design project that includes software or hardware can be defined Open Design if the software is released under an [OSI](http://www.opensource.org/)-approved open source license and the hardware is released under an [Open Source Hardware](http://freedomdefined.org/OSHW)-approved open source license/strategy. 
 
 
 ### The process of Open Design
