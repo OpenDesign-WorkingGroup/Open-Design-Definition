@@ -85,70 +85,68 @@ From the legal point of view, design can be intended in a different way than fro
 
 Before being able to know how to share your project, you should always check if your project can be protected in your country as:
 
-* Copyright:
+* **Copyright**:
 
-	* Copyright
-		* It is protected by copyright when the laws states that the specific kind of project can be regarded as copyright, your work is original, and it fulfills the requisites for being considered as copyright. 
-		For example blueprints, when reaching the required level of originality or creativity, can be considered a work of authorship in their own right.
+	* It is protected by copyright when the laws states that the specific kind of project can be regarded as copyright, your work is original, and it fulfills the requisites for being considered as copyright. 
+	For example blueprints, when reaching the required level of originality or creativity, can be considered a work of authorship in their own right.
 Alternatively, when purely technical and lacking any originality, it is arguable that blueprints are not protected by copyright. Blueprints, however, when disclosing the outer appearance of the product, could also be considered part of the product, or even as the product of design themselves, and accordingly attract the protection offered by design law (see the sections about unregistered and registered design rights).
 		
-		* You can share the project when it is protected by copyright by applying a Creative Commons license to your project. Please remember that the only valid Creative Commons license for Open Design are [CC0](http://creativecommons.org/publicdomain/zero/1.0/) for waiving all the rights and publishing the project into public domain and the [Attribution (CC-BY)](http://creativecommons.org/licenses/by/4.0) and [Attribution-ShareAlike (CC-BY-SA)](http://creativecommons.org/licenses/by-sa/4.0) for maintaining the author's rights. The use of NoDerivs and NonCommercial options is in contrast with the definition of Open Source.
+	* You can share the project when it is protected by copyright by applying a Creative Commons license to your project. Please remember that the only valid Creative Commons license for Open Design are [CC0](http://creativecommons.org/publicdomain/zero/1.0/) for waiving all the rights and publishing the project into public domain and the [Attribution (CC-BY)](http://creativecommons.org/licenses/by/4.0) and [Attribution-ShareAlike (CC-BY-SA)](http://creativecommons.org/licenses/by-sa/4.0) for maintaining the author's rights. The use of NoDerivs and NonCommercial options is in contrast with the definition of Open Source.
 
-* Patent:
+* **Patent**:
 
-	* Patent:
-		* *It is protected by patents when ...*
-		* *You can share the project when it is protected by patent by...*
+	* *It is protected by patents when ...*
+	* *You can share the project when it is protected by patent by...*
 
-* Design Rights:
+* **Design Rights**:
 
-	* Unregistered Design Rights
+	* **Unregistered Design Rights**
 		* It is protected by unregistered design rights when the law states that some rights can be protected for the designers upon disclosure of the design project, even if not formally registered. In the European Union, for example, if you do not register her design at any level, you can still enjoy a three-year unregistered (UCD) protection which can operate regardless of any other form of national unregistered design protection. 
 		
 		* You can share the project when it is protected by unregistered design rights with the following procedures. Design rights, under a number of aspects (registration, subject matter, requirements, duration, competent offices, tests) are much closer to
 trademarks and patents, a set of rights that are unanimously outside the scope of the Creative Commons licenses. If we apply them to a design, they will only govern the copyright in the work, and not the design rights in the product. There are therefore two possibilities:
-		* CC0
+		* **CC0**:
 			By applying a CC0 to a design project the designer would surrender any copyright in it, as well as any UCD-based (Unregistered Community Design) claim against acts of copying of the design.
 	
-	* Registered Design Rights
+	* **Registered Design Rights**:
 		* It is protected by registered design rights when it is formally registered within a dedicated public institution and the law grants specific rights to the holder after the registration. For example, in the European Union the protection offered by the [Community Design Regulation](http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=OJ:L:2002:003:0001:0024:en:PDF) to products of design covers *"the appearance of the whole or a part of […] any industrial or handicraft item resulting from the features of the product itself […] and/or its ornamentation"* (but not software). In order to achieve Design Rights for a project, it has to have: novelty (no other "identical design" must have been made available to the public before it) and individual character (the design must produce an overall impression on the informed user that is different from the overall impression produced on such a user by any design which has been made available to the public before the relevant date).
 		
 		* You can share the project when it is protected by registered design rights with the following procedures. Design rights, under a number of aspects (registration, subject matter, requirements, duration, competent offices, tests) are much closer to
 trademarks and patents, a set of rights that are unanimously outside the scope of the Creative Commons licenses. If we apply them to a design, they will only govern the copyright in the work, and not the design rights in the product. There are therefore two possibilities:
-			* CC0
-			By applying a CC0 to a design project the designer would surrender any copyright in it, as well as any RCD (Registered Community Design) claims. The designer, however, would still be entitled to file a registration for an RCD (Registered Community Design) within a period of 12 months from the date of the first disclosure of the product, but after this grace period, anybody should feel free to reproduce the
+		* **CC0**:
+		By applying a CC0 to a design project the designer would surrender any copyright in it, as well as any RCD (Registered Community Design) claims. The designer, however, would still be entitled to file a registration for an RCD (Registered Community Design) within a period of 12 months from the date of the first disclosure of the product, but after this grace period, anybody should feel free to reproduce the
 design. 
 
-			* CC+Design
-			Creative Commons offers additional legal tools that can prove quite effective in special cases. [CC+ (CCPlus)](http://wiki.creativecommons.org/CCPlus) consists in a Creative Commons license plus another agreement that allows licensors to offer additional permissions and more rights above and beyond those granted by the standard Creative Commons license.
+		* **CC+Design**:
+		Creative Commons offers additional legal tools that can prove quite effective in special cases. [CC+ (CCPlus)](http://wiki.creativecommons.org/CCPlus) consists in a Creative Commons license plus another agreement that allows licensors to offer additional permissions and more rights above and beyond those granted by the standard Creative Commons license.
 It is possible then that the "+" would be represented by a waiver whereby the affirmer relinquishes every possible right or interest, for example from EU community design in Europe, or from national design rights law (read about this proposal [here](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2361682)). The affirmer, in particular, should declare not to have filed any application, and to relinquish the relative right (which would exist for a 12-month period from disclosure) to file for a registration. In a case in which a registration has been filed and/or obtained, the waiver should contain specific wording declaring that the rights granted by the registration are waived, abandoned or relinquished and will never be enforced. The affirmer should also explicitly abandon, waive and promise not to assert the unregistered design rights which will endure for a period of three years from disclosure regardless of any affirmative step taken by the designer. A specific reference in the waiver should be addressed to national unregistered design rights.
 In order to ensure the maximum level of compliance with national laws, where and to the extent that such waivers are deemed invalid, the affirmer should grant a worldwide, non-exclusive license allowing the performance of all the acts that the waiver would have covered. The waiver should be preceded by a preamble clarifying the intentions and motives of the licensor in order to guide courts called upon to interpret this novel contractual structure in case of litigation.
 The above solution cannot obviously work when copyright does not exist. If applied, it would lead to some sort of "contractual public domain" status, as copyright is absent and design rights have been relinquished. To solve the problem, an alternative approach is possible. It largely resembles the CC+Design solution seen above, but the "+" is in this case is not represented by a waiver, but by an additional grant that extends the scope of the license to include (registered and unregistered) design rights. In this way, design rights will not be waived, but licensed together with copyright and other related rights, and will therefore follow the conditions established by the Creative Commons license. This solution allows licensors also in countries with a partial cumulation approach to allow the use and reuse of their designs under conditions such as attribution of paternity, use of the same or equivalent license for derivatives, and non-commercial uses.
 Please remember that for the only valid Creative Commons license for Open Design are [Attribution (CC-BY)](http://creativecommons.org/licenses/by/4.0) and [Attribution-ShareAlike (CC-BY-SA)](http://creativecommons.org/licenses/by-sa/4.0). The use of NoDerivs and NonCommercial options is in contrast with the definition of Open Source.
 
 
-* Trademark:
+* **Trademark:**
 
-	* Registered Trademark (R) / Unregistered Trademark (TM)
+	* **Registered Trademark (R) / Unregistered Trademark (TM)**
 		* A trademark is a recognizable sign, design or expression that identifies the source of a specific product or service. It can be either [registered](http://en.wikipedia.org/wiki/Trademark) or [unregistered](http://en.wikipedia.org/wiki/Unregistered_trademark). Many Open Source (Hardware, Software or Design) projects have their own brand and trademark. However, most of the time these are not shared or open source brand themselves. The topic of a completely open source brand/trademark is still under development: the use of a Creative Commons license could even result [in a loss of the trademark rights altogether](https://wiki.creativecommons.org/Frequently_Asked_Questions#Could_I_use_a_CC_license_to_share_my_logo_or_trademark.3F).
 		* A common strategy for sharing an open source trademark project lays in establishing a trademark policy that grants permissions in advance for limited uses, with sometimes a review of the requests for using the trademark. For example, we can learn from these cases of elaborated custom policies (for example: [Wikimedia](http://wikimediafoundation.org/wiki/Trademark_policy), [Mozilla](https://www.mozilla.org/en-US/foundation/trademarks/policy/), [Creative Commons](https://creativecommons.org/policies)), restrictions on name usage (for example: [Django](https://www.djangoproject.com/trademarks/)), specific policies with specific brand guidelines (for example: Ubuntu - [policy](http://www.ubuntu.com/aboutus/trademarkpolicy) - [brand guidelines](https://design.ubuntu.com/brand/ubuntu-logo)), custom policies with Creative Commons-licensed components and other components that cannot be used (for example: [Android](http://developer.android.com/distribute/tools/promote/brand.html)), different logos for different usages (for example: [Debian](http://www.debian.org/logos/index.en.html)) or a specific logo for community usage and licensed under a Creative Commons license (for example: [Arduino](http://arduino.cc/en/Trademark/CommunityLogo)).
 		
-	* Unregistered Trade Dress
+	* **Unregistered Trade Dress**
 		* *It is protected by trade dress when...*
 		* *You can share the project when it is protected by trade dress by...*
 
-	* Registered Trade Dress
+	* **Registered Trade Dress**
 		* *It is protected by trade dress when...*
 		* *You can share the project when it is protected by trade dress by...*
 
-* No protection forms:
+* **No protection forms:**
 
-	* No protection
+	* **No protection**
 		* There is no protection for the project when the kind of project you are developing does not fall into the descriptions of the law that regulates the protection of design IP. For example, service design projects are a typical example.
 		
 		* When there is no legal protection for the specific kind of your project, if the blueprints reach the required level of originality or creativity, they can be considered a work of authorship in their own right and therefore protected by copyright. You can then share the project when it is protected by copyright by applying a Creative Commons license to your project. Please remember that the only valid Creative Commons license for Open Design are [CC0](http://creativecommons.org/publicdomain/zero/1.0/) for waiving all the rights and publishing the project into public domain and the [Attribution (CC-BY)](http://creativecommons.org/licenses/by/4.0) and [Attribution-ShareAlike (CC-BY-SA)](http://creativecommons.org/licenses/by-sa/4.0) for maintaining the author's rights. The use of NoDerivs and NonCommercial options is in contrast with the definition of Open Source.
 		
-	* Trade Secret
+	* **Trade Secret**
 		* Your project is a trade secret when the design is not disclosed and known by the public, it confers some sort of economic benefit and is kept secret by you and/or somebody else. Typical legal protection is achieved with non-disclosure agreements (NDA).
 		* A Trade Secret design is in contrast with the Open Design and Open Source Definitions, therefore if you want to share it you need to choose one of the previous procedures for publishing, ceasing its nature of Trade Secret.
 
