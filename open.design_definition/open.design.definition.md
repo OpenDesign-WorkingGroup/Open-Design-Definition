@@ -107,7 +107,7 @@ Alternatively, when purely technical and lacking any originality, it is arguable
 		
 		* You can share the project when it is protected by unregistered design rights with the following procedures. Design rights, under a number of aspects (registration, subject matter, requirements, duration, competent offices, tests) are much closer to
 trademarks and patents, a set of rights that are unanimously outside the scope of the Creative Commons licenses. If we apply them to a design, they will only govern the copyright in the work, and not the design rights in the product. There are therefore two possibilities:
-			* CC0
+		* CC0
 			By applying a CC0 to a design project the designer would surrender any copyright in it, as well as any UCD-based (Unregistered Community Design) claim against acts of copying of the design.
 	
 	* Registered Design Rights
@@ -120,7 +120,7 @@ trademarks and patents, a set of rights that are unanimously outside the scope o
 design. 
 
 			* CC+Design
-Creative Commons offers additional legal tools that can prove quite effective in special cases. [CC+ (CCPlus)](http://wiki.creativecommons.org/CCPlus) consists in a Creative Commons license plus another agreement that allows licensors to offer additional permissions and more rights above and beyond those granted by the standard Creative Commons license.
+			Creative Commons offers additional legal tools that can prove quite effective in special cases. [CC+ (CCPlus)](http://wiki.creativecommons.org/CCPlus) consists in a Creative Commons license plus another agreement that allows licensors to offer additional permissions and more rights above and beyond those granted by the standard Creative Commons license.
 It is possible then that the "+" would be represented by a waiver whereby the affirmer relinquishes every possible right or interest, for example from EU community design in Europe, or from national design rights law (read about this proposal [here](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2361682)). The affirmer, in particular, should declare not to have filed any application, and to relinquish the relative right (which would exist for a 12-month period from disclosure) to file for a registration. In a case in which a registration has been filed and/or obtained, the waiver should contain specific wording declaring that the rights granted by the registration are waived, abandoned or relinquished and will never be enforced. The affirmer should also explicitly abandon, waive and promise not to assert the unregistered design rights which will endure for a period of three years from disclosure regardless of any affirmative step taken by the designer. A specific reference in the waiver should be addressed to national unregistered design rights.
 In order to ensure the maximum level of compliance with national laws, where and to the extent that such waivers are deemed invalid, the affirmer should grant a worldwide, non-exclusive license allowing the performance of all the acts that the waiver would have covered. The waiver should be preceded by a preamble clarifying the intentions and motives of the licensor in order to guide courts called upon to interpret this novel contractual structure in case of litigation.
 The above solution cannot obviously work when copyright does not exist. If applied, it would lead to some sort of "contractual public domain" status, as copyright is absent and design rights have been relinquished. To solve the problem, an alternative approach is possible. It largely resembles the CC+Design solution seen above, but the "+" is in this case is not represented by a waiver, but by an additional grant that extends the scope of the license to include (registered and unregistered) design rights. In this way, design rights will not be waived, but licensed together with copyright and other related rights, and will therefore follow the conditions established by the Creative Commons license. This solution allows licensors also in countries with a partial cumulation approach to allow the use and reuse of their designs under conditions such as attribution of paternity, use of the same or equivalent license for derivatives, and non-commercial uses.
@@ -129,13 +129,9 @@ Please remember that for the only valid Creative Commons license for Open Design
 
 * Trademark:
 
-	* Registered Trademark (R)
-		* *It is protected by trademark when...*
-		* *You can share the project when it is protected by trademark by...*
-
-	* Unregistered Trademark (TM)
-		* *It is protected by trademark when...*
-		* *You can share the project when it is protected by trademark by...*
+	* Registered Trademark (R) / Unregistered Trademark (TM)
+		* A trademark is a recognizable sign, design or expression that identifies the source of a specific product or service. It can be either [registered](http://en.wikipedia.org/wiki/Trademark) or [unregistered](http://en.wikipedia.org/wiki/Unregistered_trademark). Many Open Source (Hardware, Software or Design) projects have their own brand and trademark. However, most of the time these are not shared or open source brand themselves. The topic of a completely open source brand/trademark is still under development: the use of a Creative Commons license could even result [in a loss of the trademark rights altogether](https://wiki.creativecommons.org/Frequently_Asked_Questions#Could_I_use_a_CC_license_to_share_my_logo_or_trademark.3F).
+		* A common strategy for sharing an open source trademark project lays in establishing a trademark policy that grants permissions in advance for limited uses, with sometimes a review of the requests for using the trademark. For example, we can learn from these cases of elaborated custom policies (for example: [Wikimedia](http://wikimediafoundation.org/wiki/Trademark_policy), [Mozilla](https://www.mozilla.org/en-US/foundation/trademarks/policy/), [Creative Commons](https://creativecommons.org/policies)), restrictions on name usage (for example: [Django](https://www.djangoproject.com/trademarks/)), specific policies with specific brand guidelines (for example: Ubuntu - [policy](http://www.ubuntu.com/aboutus/trademarkpolicy) - [brand guidelines](https://design.ubuntu.com/brand/ubuntu-logo)), custom policies with Creative Commons-licensed components and other components that cannot be used (for example: [Android](http://developer.android.com/distribute/tools/promote/brand.html)), different logos for different usages (for example: [Debian](http://www.debian.org/logos/index.en.html)) or a specific logo for community usage and licensed under a Creative Commons license (for example: [Arduino](http://arduino.cc/en/Trademark/CommunityLogo)).
 		
 	* Unregistered Trade Dress
 		* *It is protected by trade dress when...*
