@@ -3,7 +3,7 @@ The Open Design Definition v. 0.3
 
 License
 -------
-This document is published under a Creative Commons [Attribution 3.0 Unported (CC BY 3.0)](http://creativecommons.org/licenses/by/3.0/deed.en_US). Parts of this document has been adopted from the [Open Source Hardware Definition](http://freedomdefined.org/OSHW).
+This document is published under a Creative Commons [Attribution 3.0 Unported (CC BY 3.0)](http://creativecommons.org/licenses/by/3.0/deed.en_US). Parts of this document has been adopted from the [Open Source Hardware Definition](http://freedomdefined.org/OSHW) / [Open Source Definition](http://opensource.org/osd-annotated).
 
 
 ### Introduction
