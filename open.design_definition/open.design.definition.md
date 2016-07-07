@@ -20,10 +20,6 @@ This document represents a collaborative experimentation about writing and discu
 
 ###Open Design Statement of Principles
 
-*Here we should develop our understanding of Open Source / Open Content of Open Design. Should be short and clarify the framework.*
-
-*If we feel that we need to clarify something about Freedom vs. Openness it should be done here* 
-
 Open Design is a design artifact project whose source documentation is made publicly available so that anyone can study, modify, distribute, make, prototype and sell the artifact based on that design. The artifact's source, the design documentation from which it is made, is available in the preferred format for making modifications to it. Ideally (but not exclusively necessary), Open Design uses readily-available components and materials, standard processes, open infrastructure, unrestricted content, and open-source design tools to maximize the ability of individuals to make and use hardware. 
 
 Open Design gives people the freedom to control their technology while sharing knowledge and encouraging commerce through the open exchange of designs.
@@ -40,15 +36,11 @@ For specific definition of Open Design related to a specific branch of design, t
 
 ###The process of Open Design
 
-*Here we should discuss if there's anything more that we can add about the processes around the development of Open Design projects*
-
 Openness in Open Design can be referred to Open Access (to the source files) and Open Contribution (to the collaborative design process).
 Design also means the design process of developing an Open Design project. Open Design does not refer to and is not defined by a specific design process. Most of the time the design process of an Open Design project will not be documented and therefore there is no need to publish this documentation. However, if the design process of an Open Design project is documented, this documentation should be published together with the Open Design project, in order to make even the process an open one. 
 
 
 ###The documentation of Open Design
-
-*Here we should discuss the issue of all the knowledge and related data for Open Design projects. For example: supply chain, material processes, how to repair / reproduce / manufacture a project, the carbon footprint of the manufacturing and distribution processes and so on*
 
 The design must be released with documentation including source design files, and must allow modification and distribution of the source design files. Where documentation is not furnished with the outcome artifact, there must be a well-publicized means of obtaining this documentation for no more than a reasonable reproduction cost, preferably downloading via the Internet without charge. The documentation must include design files in the preferred format for making changes, for example the native file format of a CAD program, in fully-documented, open format(s). Deliberately obfuscated design files are not allowed. Intermediate forms analogous to compiled computer code are not allowed as substitutes.
 
@@ -62,9 +54,6 @@ The documentation of Open Design can take different formats, here we present a s
 
 
 ###The outcome of Open Design
-
-*Here we should discuss Open Design as an artifact created from the blueprint..*
-*Here we should clarify wether redesigning closed design projects can make them open*
 
 Redesigning an existing proprietary design cannot make it Open Design. However, if we use an existing design as a component to include o modify in our project, and we release the instructions for using or modifying such design, these instructions can be understood as Open Design.
 
@@ -83,16 +72,12 @@ An Open Design project is part of a greater ecosystem that work for its developm
 
 ###Open Design and necessary software
 
-*Here we should discuss the relationship between Open Design and the necessary software for opening / designing / making it real* 
-
 When presented publicly, outcomes and byproducts of an open design work must be distributed with the source of the open design work that were used to produce such outcomes and byproducts. The source files must be available with open and interchangeable file formats, in order to let anybody access them and edit them with easily accessible software, tools and technologies.
 
 If the design has not been designed by a person but is rather the outcome of generative process from a software, it is Open Design if also the source code of the used software is released openly.
 
 
 ###Open Design and Intellectual Property
-
-*Here we should clarify the relationships between different branches and entities for Design projects and the intellectual property laws developed for them. It should not be a license but should be a starting point for clarifying any issue with licenses or patenting*
 
 An Open Design project can consist of several components, and therefore the intellectual property of them should be considered fi they are designed within the project and not adopted from somewhere else (where they probably have a specific and separate intellectual property situation). For example, an O Design project that includes software or hardware can be defined Open Design if the software is released under an [OSI](http://www.opensource.org/)-approved open source license and the hardware is released under an [Open Source Hardware](http://freedomdefined.org/OSHW)-approved open source license/strategy. 
 
