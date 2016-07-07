@@ -57,7 +57,7 @@ The documentation of Open Design can take different formats, here we present a s
 
 0. make it available on the Web (whatever format) under an open license
 1. make it available as source file (e.g., vector format instead of bitmap format)
-2. make it available as a human-readable source file (e.g. ASCII .stl instead of binary .stl, this would work better with version control systems)
+2. make it available as a human-readable source file (e.g. ASCII .stl instead of binary .stl, this would work better with version control systems and it would be read, understood and modified by people more easily)
 3. use non-proprietary formats (e.g., .svg instead of Adobe Illustrator .ai)
 4. link your data to other data to provide context (e.g. Open Data regarding the design process, supply chain, manufacturing, distribution, end of life, ...)
 
