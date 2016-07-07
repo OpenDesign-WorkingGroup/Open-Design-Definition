@@ -38,8 +38,6 @@ This definition applies to design in its broadest sense, and is not confined to 
 For example, Open Design could refer to a Product Design project, a Fashion Design project, a Graphic Design project, an Interior Design project, a Service Design project, an Interaction Design project, and so on. 
 For specific definition of Open Design related to a specific branch of design, the current definition can be forked and extended from the [Open Design Definition repository](https://github.com/OpenDesign-WorkingGroup/Open-Design-Definition).
 
-A Design project that includes software or hardware can be defined Open Design if the software is released under an [OSI](http://www.opensource.org/)-approved open source license and the hardware is released under an [Open Source Hardware](http://freedomdefined.org/OSHW)-approved open source license/strategy. 
-
 
 ### The process of Open Design
 
@@ -84,6 +82,8 @@ If the design has not been designed by a person but is rather the outcome of gen
 ### Open Design and Intellectual Property
 
 *Here we should clarify the relationships between different branches and entities for Design projects and the intellectual property laws developed for them. It should not be a license but should be a starting point for clarifying any issue with licenses or patenting*
+
+An Open Design project can consist of several components, and therefore the intellectual property of them should be considered fi they are designed within the project and not adopted from somewhere else (where they probably have a specific and separate intellectual property situation). For example, an O Design project that includes software or hardware can be defined Open Design if the software is released under an [OSI](http://www.opensource.org/)-approved open source license and the hardware is released under an [Open Source Hardware](http://freedomdefined.org/OSHW)-approved open source license/strategy. 
 
 From the legal point of view, design can be intended in a different way than from a designer's point of view. Therefore there may be different understanding of what design is or what can be protected as design in every country. This definition want to establish a framework for understanding in an easier way how to protect and share Open Design projects. For more background on the situation regarding Design Rights, Copyright, Creative Commons and CC+Design please consult [this paper](http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2361682) which provided part of the content of this section.
 
