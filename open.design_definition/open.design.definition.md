@@ -38,7 +38,6 @@ This definition applies to design in its broadest sense, and is not confined to 
 For example, Open Design could refer to a Product Design project, a Fashion Design project, a Graphic Design project, an Interior Design project, a Service Design project, an Interaction Design project, and so on. 
 For specific definition of Open Design related to a specific branch of design, the current definition can be forked and extended from the [Open Design Definition repository](https://github.com/OpenDesign-WorkingGroup/Open-Design-Definition).
 
-
 ### The process of Open Design
 
 *Here we should discuss if there's anything more that we can add about the processes around the development of Open Design projects*
@@ -69,6 +68,18 @@ The documentation of Open Design can take different formats, here we present a s
 
 Redesigning an existing proprietary design cannot make it Open Design. However, if we use an existing design as a component to include o modify in our project, and we release the instructions for using or modifying such design, these instructions can be understood as Open Design.
 
+###The Open Design ecosystem
+
+Any design project does not consist of only files or only the artifacts it describes, but there are more elements that concur to its structure, dynamics, success or failure. Therefore we should also consider the larger ecosystem of a design project, in order to fully understand its nature of an Open Design project.
+Such ecosystem can be described with a spectrum that shows the different possible levels that extend a simple project into a greater, more complex, participated and structured project. Such spectrum identifies only the degree of complexity of an Open Design ecosystem: levels might be achieved chronologically or not, and far levels might also coexist. 
+
+An Open Design project is part of a greater ecosystem that work for its development, which can reach increasing structure and complexity with these levels:
+
+0. a documentation of a design artifact, and the manufactured or final design artifact
+1. an open, collaborative and openly documented process that manages the whole life cycle of a design artifact
+2. an organization (community, company, foundation, ...) that extends the work of the founders of the project with participation, discussion, contribution
+3. an open, collaborative and openly documented budget that allocate costs and revenues 
+4. an open, collaborative and openly documented governance that manages the processes, participation and budget of the project 
 
 ### Open Design and necessary software
 
