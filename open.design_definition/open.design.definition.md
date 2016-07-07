@@ -1,4 +1,4 @@
-The Open Design Definition v. 0.3
+The Open Design Definition v. 0.5
 =================================
 
 ### License
