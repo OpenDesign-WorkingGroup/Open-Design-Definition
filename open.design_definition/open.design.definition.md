@@ -53,12 +53,11 @@ The design must be released with documentation including source design files, an
 
 The documentation of Open Design can take different formats, here we present a spectrum that shows the different possible levels (adapted from [5 ★ Open Data](http://5stardata.info/)), with an increasing openness of the project:
 
-1. make it available on the Web (whatever format) under an open license
-2. make it available as source file (e.g., vector format instead of bitmap format)
-3. make it available as a human-readable source file (e.g. ASCII .stl instead of binary .stl, this would work better with version control systems)
-4. use non-proprietary formats (e.g., .svg instead of Adobe Illustrator .ai)
-5. add a documentation about the design process (how it has been designed, by whom, where, ...)
-6. link your data to other data to provide context (e.g. Open Data regarding the design process, supply chain, manufacturing, distribution, end of life, ...)
+0. make it available on the Web (whatever format) under an open license
+1. make it available as source file (e.g., vector format instead of bitmap format)
+2. make it available as a human-readable source file (e.g. ASCII .stl instead of binary .stl, this would work better with version control systems)
+3. use non-proprietary formats (e.g., .svg instead of Adobe Illustrator .ai)
+4. link your data to other data to provide context (e.g. Open Data regarding the design process, supply chain, manufacturing, distribution, end of life, ...)
 
 
 ### The outcome of Open Design
