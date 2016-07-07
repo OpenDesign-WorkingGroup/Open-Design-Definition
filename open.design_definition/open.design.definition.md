@@ -14,7 +14,7 @@ Please join the conversation about the definition on the [Open Design Definition
 This document represents a shared agreement about the definition of Open Design, and should not be understood as a license for Design content. The purpose of this document is to foster discussion, collaboration and community building around the concept and the practice of Open Design. This document clarifies the concepts and applications of Open Design, and while it may make easier the discussion about licenses or other sharing strategies for Design, it is not intended as a license.
 
 
-### Open Design Statement of Principles 1.0
+### Open Design Statement of Principles
 
 *Here we should develop our understanding of Open Source / Open Content of Open Design. Should be short and clarify the framework.*
 
