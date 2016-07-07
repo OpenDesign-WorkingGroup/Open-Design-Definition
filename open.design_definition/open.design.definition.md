@@ -1,16 +1,16 @@
 The Open Design Definition v. 0.5
 =================================
 
-### License
+###License
 This document is published under a Creative Commons [Attribution 3.0 Unported (CC BY 3.0)](http://creativecommons.org/licenses/by/3.0/deed.en_US). Parts of this document has been adopted from the [Open Source Hardware Definition](http://freedomdefined.org/OSHW) / [Open Source Definition](http://opensource.org/osd-annotated).
 
-### Authors
+###Authors
 Authorships of this document can be referred to the [Open Design + Hardware (OD+H) Working Group](http://design.okfn.org/) of the [Open Knowledge Foundation](http://okfn.org/). Single authors can be seen as:
 
 * authors who contributed to [the writing of the code of this definition on GitHub](https://github.com/OpenDesign-WorkingGroup/Open-Design-Definition/graphs/contributors) 
 * authors who contributed to [the discussion about this definition on GitHub](https://github.com/OpenDesign-WorkingGroup/Open-Design-Definition/issues)
 
-### Introduction
+###Introduction
 
 This document is the result of the collaborative discussion that has been taking place in the [Open Design + Hardware (OD+H) Working Group](http://design.okfn.org/) of the [Open Knowledge Foundation](http://okfn.org/).
 Please join the conversation about the definition on the [Open Design Definition repository](https://github.com/OpenDesign-WorkingGroup/Open-Design-Definition) and on the [Open Design Working Group mailing list](http://lists.okfn.org/mailman/listinfo/opendesign) (past archives are available [here](http://lists.okfn.org/pipermail/opendesign/)).
@@ -18,7 +18,7 @@ Please join the conversation about the definition on the [Open Design Definition
 This document represents a collaborative experimentation about writing and discussing the definition of Open Design, and should not be understood as a license for Design content. The purpose of this document is to foster discussion, collaboration and community building around the concept and the practice of Open Design. This document clarifies the concepts and applications of Open Design, and while it may make easier the discussion about licenses or other sharing strategies for Design, it is not intended as a license. Furthermore, the definition can be forked from the [Open Design Definition repository](https://github.com/OpenDesign-WorkingGroup/Open-Design-Definition) for sub-definitions or for alternative development.
 
 
-### Open Design Statement of Principles
+###Open Design Statement of Principles
 
 *Here we should develop our understanding of Open Source / Open Content of Open Design. Should be short and clarify the framework.*
 
@@ -38,7 +38,7 @@ This definition applies to design in its broadest sense, and is not confined to 
 For example, Open Design could refer to a Product Design project, a Fashion Design project, a Graphic Design project, an Interior Design project, a Service Design project, an Interaction Design project, and so on. 
 For specific definition of Open Design related to a specific branch of design, the current definition can be forked and extended from the [Open Design Definition repository](https://github.com/OpenDesign-WorkingGroup/Open-Design-Definition).
 
-### The process of Open Design
+###The process of Open Design
 
 *Here we should discuss if there's anything more that we can add about the processes around the development of Open Design projects*
 
@@ -46,7 +46,7 @@ Openness in Open Design can be referred to Open Access (to the source files) and
 Design also means the design process of developing an Open Design project. Open Design does not refer to and is not defined by a specific design process. Most of the time the design process of an Open Design project will not be documented and therefore there is no need to publish this documentation. However, if the design process of an Open Design project is documented, this documentation should be published together with the Open Design project, in order to make even the process an open one. 
 
 
-### The documentation of Open Design
+###The documentation of Open Design
 
 *Here we should discuss the issue of all the knowledge and related data for Open Design projects. For example: supply chain, material processes, how to repair / reproduce / manufacture a project, the carbon footprint of the manufacturing and distribution processes and so on*
 
@@ -61,7 +61,7 @@ The documentation of Open Design can take different formats, here we present a s
 4. link your data to other data to provide context (e.g. Open Data regarding the design process, supply chain, manufacturing, distribution, end of life, ...)
 
 
-### The outcome of Open Design
+###The outcome of Open Design
 
 *Here we should discuss Open Design as an artifact created from the blueprint..*
 *Here we should clarify wether redesigning closed design projects can make them open*
@@ -81,7 +81,7 @@ An Open Design project is part of a greater ecosystem that work for its developm
 3. an open, collaborative and openly documented budget that allocate costs and revenues 
 4. an open, collaborative and openly documented governance that manages the processes, participation and budget of the project 
 
-### Open Design and necessary software
+###Open Design and necessary software
 
 *Here we should discuss the relationship between Open Design and the necessary software for opening / designing / making it real* 
 
@@ -90,7 +90,7 @@ When presented publicly, outcomes and byproducts of an open design work must be 
 If the design has not been designed by a person but is rather the outcome of generative process from a software, it is Open Design if also the source code of the used software is released openly.
 
 
-### Open Design and Intellectual Property
+###Open Design and Intellectual Property
 
 *Here we should clarify the relationships between different branches and entities for Design projects and the intellectual property laws developed for them. It should not be a license but should be a starting point for clarifying any issue with licenses or patenting*
 
